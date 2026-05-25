@@ -1,4 +1,4 @@
-# In bảnh cửu chương
+## In bảnh cửu chương
 
 # Nhập số bảng cửu chương
 # VD: Cửu chương 7

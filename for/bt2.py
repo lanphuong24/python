@@ -1,4 +1,4 @@
-# Kiểm tra số nguyên tố
+## Tính tổng dãy số 1 + 2 + 3 + ... + n
 
 # Nhập số nguyên n
-# Kiểm tra n có phải là số nguyên tố hay không.
+# Tính và in ra tổng dãy số từ 1 đến n

@@ -1,4 +1,4 @@
-# Kiểm tra số hoàn hảo
+## Kiểm tra số hoàn hảo
 
 # Nhập số nguyên n
 # Kiểm tra n có phải là số hoàn hảo hay không. 

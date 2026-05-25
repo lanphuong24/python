@@ -1,4 +1,4 @@
-# Trò chơi đoán số
+## Trò chơi đoán số
 
 # Chương trình phát sinh số ngẫu nhiên từ 1 đến 10
 # Người chơi tham gia đoán đố đó, được đoán 3 lần.

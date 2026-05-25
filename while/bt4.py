@@ -1,4 +1,4 @@
-# Đếm số trong dãy
+## Đếm số trong dãy
 
 # Nhập số nguyên n
 # Đếm trong dãy 100 số tự nhiên đầu tiên có bao nhiêu số thoả mãn
