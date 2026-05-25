@@ -7,3 +7,15 @@
 # Từ 7 đến 8 => Khá
 # Từ 5 trở lên => Trung bình
 # Các trường hợp còn lại => Yếu
+
+d = float(input("nhap diem trung binh cho hoc sinh: "))
+if d >= 9:
+    print("xuat sac")
+elif d >= 8:
+    print("gioi")
+elif d >= 7:
+    print("kha")
+elif d >= 5:
+    print("trung binh")
+else:
+    print("yeu")

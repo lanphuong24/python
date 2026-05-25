@@ -5,3 +5,10 @@
 
 username = "phuong"
 password = "Phuong1234"
+
+user = input("nhap ten dang nhap: ")
+pw = input("nhap mat khau: ")
+if user == username and pw == password:
+    print("dang nhap thanh cong")
+else:
+    print("dang nhap that bai")
