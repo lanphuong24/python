@@ -1,3 +1,5 @@
+## Tính toán cơ bản
+
 a = int(input("nhap so a: "))
 b = int(input("nhap so b: "))
 cong = a + b

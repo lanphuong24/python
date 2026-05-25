@@ -1,3 +1,5 @@
+## Giải phương trình bậc 2
+
 import math
 
 print("giai phuong trinh bac 2 ax^2 + bx + c = 0")
