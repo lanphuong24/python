@@ -1,0 +1,240 @@
+╔══════════════════════════════════════════════════════════════════╗
+║   PHẦN 1: GIỚI THIỆU – NGÔN NGỮ LẬP TRÌNH – TẠI SAO CẦN?       ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Ngôn ngữ lập trình là gì?
+  A. Phần cứng máy tính
+  B. Tập các quy tắc giúp con người giao tiếp với máy tính
+  C. Hệ điều hành
+  D. Chương trình diệt virus
+
+Câu 2. Máy tính chỉ hiểu trực tiếp ngôn ngữ nào?
+  A. Tiếng Anh
+  B. Python
+  C. Mã nhị phân (0 và 1)
+  D. HTML
+
+Câu 3. Python thuộc loại ngôn ngữ nào?
+  A. Ngôn ngữ máy
+  B. Assembly
+  C. Ngôn ngữ bậc cao
+  D. Ngôn ngữ bậc thấp
+
+Câu 4. Khác biệt chính giữa ngôn ngữ bậc cao và ngôn ngữ máy?
+  A. Bậc cao nhanh hơn
+  B. Bậc cao gần với cách viết của con người hơn
+  C. Bậc cao chỉ chạy trên Windows
+  D. Bậc cao không cần máy tính
+
+Câu 5. Ai tạo ra Python?
+  A. Bill Gates
+  B. Linus Torvalds
+  C. Guido van Rossum
+  D. Mark Zuckerberg
+
+Câu 6. Python ra đời vào khoảng năm nào?
+  A. 1970    B. 1991    C. 2005    D. 2015
+
+Câu 7. Chương trình viết bằng Python được gọi là?
+  A. File hệ thống
+  B. Script/chương trình Python
+  C. Virus
+  D. Dữ liệu thô
+
+Câu 8. Tại sao cần ngôn ngữ lập trình?
+  A. Để máy tính hiểu lệnh của con người
+  B. Để mua phần cứng
+  C. Để kết nối Internet
+  D. Để cài hệ điều hành
+
+Câu 9. Đuôi file mã nguồn Python?
+  A. .java    B. .txt    C. .py    D. .exe
+
+Câu 10. Python được dùng trong lĩnh vực nào?
+  A. Phân tích dữ liệu
+  B. Web
+  C. AI/Machine Learning
+  D. Tất cả các đáp án trên
+
+Câu 11. Ngôn ngữ bậc cao cần gì để chạy được?
+  A. Bàn phím đặc biệt
+  B. Trình thông dịch hoặc trình biên dịch
+  C. Chuột không dây
+  D. Màn hình cảm ứng
+
+Câu 12. Python dùng cơ chế nào để thực thi?
+  A. Biên dịch toàn bộ trước
+  B. Thông dịch từng dòng
+  C. Chỉ chạy trên terminal
+  D. Chỉ chạy trên browser
+
+Câu 13. Ưu điểm nổi bật của Python?
+  A. Cú pháp phức tạp
+  B. Cú pháp đơn giản, dễ đọc
+  C. Nhanh nhất trong các ngôn ngữ
+  D. Chỉ dùng được trên Mac
+
+Câu 14. File mã nguồn Python là dạng?
+  A. File nhị phân
+  B. File văn bản thuần (.py)
+  C. File âm thanh
+  D. File ảnh
+
+Câu 15. "Chạy chương trình Python" nghĩa là?
+  A. Tắt máy
+  B. Trình thông dịch Python đọc và thực thi từng lệnh trong .py
+  C. In file ra giấy
+  D. Gửi email file
+
+Câu 16.
+
+Câu 17. Đặc điểm của Python?
+  A. Chỉ chạy trên Linux
+  B. Phần mềm trả phí
+  C. Mã nguồn mở, miễn phí, đa nền tảng
+  D. Không có thư viện
+
+Câu 18. "Thuật toán" là gì?
+  A. Tên một ngôn ngữ
+  B. Các bước giải bài toán theo trình tự
+  C. Một loại lỗi
+  D. Màn hình hiển thị
+
+Câu 19. Lợi ích học Python với người mới?
+  A. Cú pháp khó để rèn tư duy
+  B. Không cần máy tính
+  C. Cú pháp rõ ràng, cộng đồng lớn
+  D. Chỉ để làm game
+
+Câu 20.
+
+Câu 21. Phiên bản Python hiện đang phổ biến?
+  A. Python 1
+  B. Python 2
+  C. Python 3
+  D. Python 5
+
+Câu 22. Khi viết code Python, dòng bắt đầu bằng # là gì?
+  A. Lệnh in
+  B. Chú thích (comment)
+  C. Lỗi
+  D. Biến
+
+Câu 23. Mục đích của comment?
+  A. Để máy tính thực thi nhanh hơn
+  B. Để giải thích code cho người đọc
+  C. Để mã hóa dữ liệu
+  D. Để in ra màn hình
+
+Câu 24. Đặc điểm của ngôn ngữ thông dịch?
+  A. Phải biên dịch hết rồi mới chạy
+  B. Đọc và chạy từng dòng
+  C. Chỉ chạy trên web
+  D. Cần cài đặt hệ điều hành riêng
+
+Câu 25. Đâu KHÔNG phải là ngôn ngữ lập trình?
+  A. Python
+  B. Java
+  C. C++
+  D. HTTP
+
+Câu 26.
+
+Câu 27. Để chạy file hello.py từ terminal ta dùng?
+  A. run hello.py
+  B. python hello.py
+  C. execute hello.py
+  D. start hello.py
+
+Câu 28.
+
+Câu 29. Python có thuộc dạng mã nguồn mở không?
+  A. Có
+  B. Không
+  C. Chỉ Python 2
+  D. Chỉ trên Linux
+
+Câu 30.
+
+Câu 31.
+
+Câu 32. 
+
+Câu 33.
+
+Câu 34. Trình thông dịch (interpreter) làm gì?
+  A. Chuyển code Python sang ngôn ngữ máy và thực thi
+  B. Tải Python về máy
+  C. Soạn thảo code
+  D. Lưu code vào file
+
+Câu 35. 
+
+Câu 36.
+
+Câu 37. Ví dụ ngôn ngữ bậc cao?
+  A. Python, Java, C++
+  B. Assembly, Mã máy
+  C. SQL, HTML
+  D. Tiếng Anh, Tiếng Việt
+
+Câu 38. Ngôn ngữ bậc cao có ưu điểm gì?
+  A. Chạy gần phần cứng
+  B. Dễ học, dễ đọc, dễ bảo trì
+  C. Chạy nhanh như mã máy
+  D. Không cần dịch
+
+Câu 39. Code Python có chạy được trên Mac không?
+  A. Không
+  B. Có, vì Python đa nền tảng
+  C. Chỉ trên macOS mới
+  D. Chỉ với phiên bản đặc biệt
+
+Câu 40. Lập trình giải quyết vấn đề bằng cách nào?
+  A. Viết tay trên giấy
+  B. Mô tả các bước cho máy thực hiện bằng code
+  C. Suy nghĩ trong đầu
+  D. Đọc sách
+
+Câu 41. Bug trong lập trình nghĩa là?
+  A. Một loại file
+  B. Lỗi trong code
+  C. Một loại biến
+  D. Một loại thư viện
+
+Câu 42. Debug là gì?
+  A. Viết code mới
+  B. Tìm và sửa lỗi
+  C. Xóa code
+  D. Chạy chương trình
+
+Câu 43. 
+
+Câu 44.
+
+Câu 45.
+
+Câu 46.
+
+Câu 47.
+
+Câu 48. Python có hỗ trợ Unicode (chữ tiếng Việt) không?
+  A. Không
+  B. Có, hỗ trợ đầy đủ Unicode (UTF-8)
+  C. Chỉ Python 3
+  D. Chỉ trên Linux
+
+Câu 49.
+
+Câu 50.
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-C   4-B   5-C   6-B   7-B   8-A   9-C   10-D
+11-B  12-B  13-B  14-B  15-B  16-C  17-C  18-B  19-C  20-D
+21-C  22-B  23-B  24-B  25-D  26-B  27-B  28-B  29-A  30-C
+31-C  32-B  33-B  34-A  35-B  36-B  37-A  38-B  39-B  40-B
+41-B  42-B  43-B  44-B  45-A  46-A  47-B  48-B  49-C  50-A
+══════════════════════════════════════════════

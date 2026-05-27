@@ -1,0 +1,178 @@
+╔══════════════════════════════════════════════════════════════════╗
+║       PHẦN 8: BIỂU THỨC LOGIC VÀ PHÉP SO SÁNH                   ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Phép so sánh "bằng"?
+  A. =    B. ==    C. ===    D. equals
+
+Câu 2. Phép so sánh "khác"?
+  A. <>    B. not=    C. !=    D. =/=
+
+Câu 3. 5 > 3 = ?
+  A. 5    B. 3    C. True    D. False
+
+Câu 4. 5 == 5.0 = ?
+  A. False    B. True    C. Error    D. None
+
+Câu 5. 10 <= 10 = ?
+  A. False    B. True    C. 10    D. 0
+
+Câu 6. and trả True khi?
+  A. Một trong hai True
+  B. Cả hai đều True
+  C. Cả hai đều False
+  D. Luôn True
+
+Câu 7. or trả True khi?
+  A. Cả hai đều True
+  B. Cả hai đều False
+  C. Ít nhất một True
+  D. Luôn True
+
+Câu 8. not True = ?
+  A. True    B. 0    C. False    D. None
+
+Câu 9. (3 > 1) and (5 > 10) = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 10. (3 > 1) or (5 > 10) = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 11. not (5 > 3) = ?
+  A. True    B. False    C. 5    D. Error
+
+Câu 12. 3 < 5 < 10 trong Python?
+  A. True (hỗ trợ so sánh chuỗi)
+  B. False
+  C. Error
+  D. (True) < 10
+
+Câu 13. True and False or True (and trước or) = ?
+  A. False    B. True    C. Error    D. None
+
+Câu 14. bool(0 == 0) = ?
+  A. False    B. 0    C. True    D. Error
+
+Câu 15. (5 != 3) and (2 < 4) = ?
+  A. True    B. False    C. 5    D. Error
+
+Câu 16. Giá trị được coi là False trong Python?
+  A. 0, "", None, [], False
+  B. Chỉ False
+  C. Chỉ 0 và False
+  D. Chỉ None
+
+Câu 17. not not True = ?
+  A. False    B. True    C. None    D. Error
+
+Câu 18. 10 >= 20 = ?
+  A. True    B. False    C. 10    D. 20
+
+Câu 19.
+
+Câu 20. 1 < 2 < 3 < 4 = ?
+  A. False    B. True    C. Error    D. 1
+
+Câu 21. 5 == "5" = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 22.
+
+Câu 23. True and True = ?
+  A. True    B. False    C. None    D. 1
+
+Câu 24. False or False = ?
+  A. True    B. False    C. None    D. 0
+
+Câu 25. True + True = ?
+  A. Error    B. 1    C. 2    D. True
+
+Câu 26. "abc" == "abc" = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 27. "abc" == "ABC" = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 28. 
+
+Câu 29. 5 != 5 = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 30.
+
+Câu 31. 
+
+Câu 32. 
+
+Câu 33. 
+
+Câu 34. 
+
+Câu 35. 
+
+Câu 36. 
+
+Câu 37. bool(None) = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 38. 
+
+Câu 39. bool(0.0) = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 40. bool(-1) = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 41. 1 == True = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 42. 0 == False = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 43. 
+
+Câu 44. 
+
+Câu 45. "ab" + "cd" == "abcd" = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 46. (5 > 3) + (2 < 1) = ?
+  A. 0 (False+False)
+  B. 1 (True+False)
+  C. 2 (True+True)
+  D. Error
+
+Câu 47. not 0 = ?
+  A. True (vì 0 → False)
+  B. False
+  C. 1
+  D. Error
+
+Câu 48. not "" = ?
+  A. True (vì "" → False)
+  B. False
+  C. ""
+  D. Error
+
+Câu 49. not "False" = ?
+  A. True
+  B. False (vì "False" là chuỗi không rỗng → True → not → False)
+  C. Error
+  D. None
+
+Câu 50. (3 > 2) and (5 == 5) and (1 < 0) = ?
+  A. True
+  B. False
+  C. Error
+  D. None
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-C   4-B   5-B   6-B   7-C   8-C   9-B   10-A
+11-B  12-A  13-B  14-C  15-A  16-A  17-B  18-B  19-B  20-B
+21-B  22-A  23-A  24-B  25-C  26-A  27-B  28-A  29-B  30-A
+31-A  32-A  33-B  34-A  35-A  36-A  37-B  38-A  39-B  40-A
+41-A  42-A  43-B  44-C  45-A  46-B  47-A  48-A  49-B  50-B
+══════════════════════════════════════════════

@@ -1,0 +1,248 @@
+╔══════════════════════════════════════════════════════════════════╗
+║              PHẦN 6: HÀM INPUT() VÀ PRINT()                      ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Hàm print() để?
+  A. Nhận dữ liệu
+  B. Hiển thị ra màn hình
+  C. Lưu file
+  D. Tính toán
+
+Câu 2. Hàm input() để?
+  A. In ra
+  B. Tính toán
+  C. Nhận dữ liệu từ bàn phím
+  D. Đọc file
+
+Câu 3. input() trả về kiểu?
+  A. int    B. float    C. str    D. Tùy nhập
+
+Câu 4. Lệnh nào in "Hello"?
+  A. echo "Hello"
+  B. print(Hello)
+  C. print("Hello")
+  D. display("Hello")
+
+Câu 5. print("Tôi", "học", "Python") in?
+  A. Tôi học Python
+  B. Tôihọ cPython
+  C. "Tôi" "học" "Python"
+  D. Error
+
+Câu 6. Để in không xuống dòng?
+  A. newline=False    B. sep=""    C. end=""    D. endl=False
+
+Câu 7. Kết quả:
+  print("A", end=" ")
+  print("B", end=" ")
+  print("C")
+
+  A. A B C (3 dòng)
+  B. A B C (1 dòng)
+  C. ABC
+  D. Error
+
+Câu 8. Tham số sep dùng để?
+  A. Tạo dòng mới
+  B. Thay ký tự ngăn cách giữa các giá trị
+  C. Kết thúc lệnh
+  D. Xóa màn hình
+
+Câu 9. print("a", "b", "c", sep="-") in?
+  A. a b c    B. a-b-c    C. abc    D. a,b,c
+
+Câu 10. ten = "Minh"; print("Xin chào", ten) in?
+  A. Xin chào ten
+  B. Xin chào Minh
+  C. Xin chàoMinh
+  D. Error
+
+Câu 11. Cách dùng f-string?
+  A. print(f"Tên là {ten}")
+  B. print("Tên là" + ten)
+  C. Cả A và B đều được
+  D. Không thể
+
+Câu 12. x = 10; print(f"x = {x * 2}") in?
+  A. x = {x * 2}
+  B. x = 10 * 2
+  C. x = 20
+  D. Error
+
+Câu 13. name = input("Nhập tên: ") làm gì?
+  A. Hiển thị "Nhập tên: " và chờ nhập
+  B. Gán "Nhập tên: " cho name
+  C. Báo lỗi
+  D. Không làm gì
+
+Câu 14. Người dùng nhập 25 qua input(), biến nhận kiểu?
+  A. int    B. float    C. str    D. number
+
+Câu 15. Để nhận số nguyên từ bàn phím?
+  A. n = input("Nhập: ")
+  B. n = int(input("Nhập: "))
+  C. n = integer(input())
+  D. n = num(input())
+
+Câu 16. Người dùng nhập 5:
+  x = input(); print(x + x)
+  A. 10    B. 55    C. 5 5    D. Error
+
+Câu 17. Cách in dòng trống?
+  A. print("")    B. print()    C. Cả A và B    D. print(newline)
+
+Câu 18. print("Python" * 3) in?
+  A. PythonPythonPython
+  B. Python3
+  C. Python Python Python
+  D. Error
+
+Câu 19. a = 5; b = 3; print(f"{a} + {b} = {a + b}") in?
+  A. a + b = a + b
+  B. 5 + 3 = 8
+  C. {a} + {b} = {a + b}
+  D. 5 + 3 = a + b
+
+Câu 20. Cách xuống dòng trong chuỗi?
+  A. \n    B. <br>    C. \\    D. endl
+
+Câu 21. print("a\nb") in?
+  A. a\nb
+  B. a b
+  C. a (xuống dòng) b
+  D. Error
+
+Câu 22. print("a\tb") in?
+  A. a\tb
+  B. ab
+  C. a    b (Tab)
+  D. Error
+
+Câu 23. input() không có prompt?
+  A. Báo lỗi
+  B. Chờ nhập mà không có thông báo
+  C. Tự nhập 0
+  D. Trả về None
+
+Câu 24. Hàm nào trong Python in ra mà không xuống dòng?
+  A. print không có end="\n"
+  B. print(..., end="")
+  C. printnl()
+  D. print không hỗ trợ
+
+Câu 25. sep mặc định của print() là?
+  A. ""    B. " "    C. ","    D. "\n"
+
+Câu 26. end mặc định của print() là?
+  A. ""    B. " "    C. ","    D. "\n"
+
+Câu 27. Để nhập số thực từ bàn phím?
+  A. float(input())
+  B. double(input())
+  C. real(input())
+  D. number(input())
+
+Câu 28. print(1, 2, 3) in?
+  A. 123    B. 1 2 3    C. [1, 2, 3]    D. (1, 2, 3)
+
+Câu 29. print(1, 2, 3, sep="") in?
+  A. 123    B. 1 2 3    C. (1, 2, 3)    D. Error
+
+Câu 30. print(1, 2, 3, sep=", ") in?
+  A. 123    B. 1 2 3    C. 1, 2, 3    D. [1, 2, 3]
+
+Câu 31. 
+
+Câu 32. 
+
+Câu 33. 
+
+Câu 34. print() có thể in nhiều giá trị khác kiểu không?
+  A. Không
+  B. Có
+  C. Chỉ với cùng kiểu
+  D. Chỉ với str
+
+Câu 35. print(type(input("Nhập: "))) sau khi nhập 5 in?
+  A. <class 'int'>    B. <class 'str'>    C. 5    D. Error
+
+Câu 36. 
+
+Câu 37. 
+
+Câu 38.
+
+Câu 39. print(end="\n") in gì?
+  A. Một dòng trống
+  B. Không có gì hiển thị
+  C. "\n"
+  D. Error
+
+Câu 40. Sau code, đếm bao nhiêu lần dòng được in?
+  print("A")
+  print("B", end="")
+  print("C")
+
+  A. 1    B. 2    C. 3    D. 0
+
+Câu 41. Sau code in ra gì?
+  print("A")
+  print("B", end="")
+  print("C")
+
+  A. ABC (1 dòng)
+  B. A (dòng 1) BC (dòng 2)
+  C. A B C
+  D. Error
+
+Câu 42. f"{2+3}" cho kết quả?
+  A. "2+3"    B. "5"    C. 5    D. Error
+
+Câu 43. Để in dấu nháy đôi trong chuỗi?
+  A. print("\"")    B. print('"')    C. Cả A và B    D. Không thể
+
+Câu 44. 
+
+Câu 45. print(r"a\nb") in?
+  A. a (xuống dòng) b
+  B. a\nb
+  C. ab
+  D. Error
+
+Câu 46. print không tham số in gì?
+  A. None
+  B. Một dòng trống (ký tự xuống dòng)
+  C. Lỗi
+  D. ""
+
+Câu 47. Để in nhiều dòng với 1 lệnh print?
+  A. Dùng \n trong chuỗi
+  B. Dùng print nhiều lần
+  C. Dùng """nhiều dòng"""
+  D. A và C đúng
+
+Câu 48. input("Tuổi: ") + 5 với người dùng nhập 20?
+  A. 25    B. "205"    C. Lỗi TypeError    D. "20 5"
+
+Câu 49. Để cộng số nhập từ input?
+  A. int(input("Tuổi: ")) + 5
+  B. input("Tuổi: ") + 5
+  C. input(5)
+  D. add(input())
+
+Câu 50. print("Hello", "World", sep="", end="!") in?
+  A. Hello World!
+  B. HelloWorld!
+  C. Hello,World!
+  D. Hello World !
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-C   4-C   5-A   6-C   7-B   8-B   9-B   10-B
+11-C  12-C  13-A  14-C  15-B  16-B  17-C  18-A  19-B  20-A
+21-C  22-C  23-B  24-B  25-B  26-D  27-A  28-B  29-A  30-C
+31-A  32-B  33-B  34-B  35-B  36-B  37-B  38-C  39-A  40-C
+41-B  42-B  43-C  44-A  45-B  46-B  47-D  48-C  49-A  50-B
+══════════════════════════════════════════════

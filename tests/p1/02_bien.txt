@@ -1,0 +1,277 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                   PHẦN 2: BIẾN (VARIABLES)                       ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Biến dùng để làm gì?
+  A. Lưu trữ dữ liệu trong bộ nhớ
+  B. In dữ liệu
+  C. Xóa dữ liệu
+  D. Kết nối Internet
+
+Câu 2. Cú pháp khai báo biến trong Python?
+  A. var x = 10
+  B. int x = 10
+  C. x = 10
+  D. declare x = 10
+
+Câu 3. Tên biến HỢP LỆ?
+  A. 1abc    B. my-var    C. _score    D. class
+
+Câu 4. Tên biến KHÔNG hợp lệ?
+  A. ten_bien    B. _x    C. bien1    D. 2bien
+
+Câu 5.
+
+Câu 6. Sau code này, x = ?
+  x = 10
+  x = 20
+  
+  A. 10    B. 20    C. 10 20    D. Error
+
+Câu 7. hoa_qua và Hoa_Qua trong Python?
+  A. Cùng một biến
+  B. Hai biến khác nhau
+  C. Lỗi
+  D. Tự động hợp nhất
+
+Câu 8. tuoi = 18 thì tuoi có kiểu?
+  A. str    B. int    C. float    D. bool
+
+Câu 9. a = b = c = 0 có hợp lệ không?
+  A. Không
+  B. Có, cả 3 biến đều = 0
+  C. Chỉ a = 0
+  D. Lỗi cú pháp
+
+Câu 10. Cú pháp ĐÚNG để gán nhiều biến trên 1 dòng?
+  A. a, b, c = 1 2 3
+  B. a = 1, b = 2, c = 3
+  C. a, b, c = 1, 2, 3
+  D. a b c = 1 2 3
+
+Câu 11. Tên biến nào vi phạm quy tắc?
+  A. _privateVar    B. myName    C. total_score    D. for
+
+Câu 12. Dùng biến chưa gán giá trị?
+  A. Biến nhận giá trị 0
+  B. Lỗi NameError
+  C. Biến nhận None
+  D. Không có gì xảy ra
+
+Câu 13. snake_case là?
+  A. tenBien    B. TenBien    C. ten_bien    D. TENBIEN
+
+Câu 14. camelCase là?
+  A. ten_bien    B. tenBien    C. TenBien    D. TENBIEN
+
+Câu 15. SCREAMING_SNAKE_CASE thường dùng cho?
+  A. Tên biến thường
+  B. Tên hằng số
+  C. Tên hàm
+  D. Tên file
+
+Câu 16. a, b = 5, 10; print(a + b) → ?
+  A. 510    B. 5 10    C. 15    D. Error
+
+Câu 17.
+
+Câu 18. Sau code này, b = ?
+  a = 10
+  b = a
+  a = 20
+
+  A. 10    B. 20    C. 30    D. Error
+
+Câu 19. Ký tự được phép trong tên biến?
+  A. Chữ, số, dấu _; không bắt đầu bằng số
+  B. Mọi ký tự
+  C. Chỉ chữ cái
+  D. Chỉ chữ thường
+
+Câu 20. x = 3.14 → kiểu x?
+  A. int    B. str    C. float    D. bool
+
+Câu 21. Sau code này, y = ?
+  x = 5
+  y = x * 2
+  x = 0
+
+  A. 0    B. 10    C. 5    D. Error
+
+Câu 22. Tên biến hằng số quy ước?
+  A. myConst    B. MyConst    C. MAX_VALUE    D. maxvalue
+
+Câu 23. Cú pháp đổi chỗ 2 biến chuẩn Python?
+  A. a, b = b, a
+  B. swap(a, b)
+  C. temp = a; a = b; b = temp (chỉ cách này)
+  D. exchange(a, b)
+
+Câu 24. Sau code, kết quả?
+a=3
+b=7
+a, b = b, a
+
+  A. a=3, b=7
+  B. a=7, b=3
+  C. a=10, b=10
+  D. Lỗi
+
+Câu 25. 
+
+Câu 26. 
+
+Câu 27. Tên biến có thể chứa dấu cách?
+  A. Có
+  B. Không
+  C. Chỉ với chuỗi
+  D. Chỉ ở cuối
+
+Câu 28. Đâu là cách đặt tên biến tốt?
+  A. a
+  B. xyz
+  C. tong_diem
+  D. var1
+
+Câu 29. Cách thể hiện ý nghĩa của biến rõ nhất?
+  A. x = 18
+  B. y = 18
+  C. tuoi = 18
+  D. n = 18
+
+Câu 30. Tên biến phân biệt hoa/thường nghĩa là?
+  A. Ten và ten là 2 biến khác nhau
+  B. Ten và ten là 1 biến
+  C. Chỉ tên hoa được dùng
+  D. Chỉ tên thường được dùng
+
+Câu 31. Sau code, kết quả?
+  a = 5
+  b = 3
+  a, b = b, a
+  print(a, b)
+
+  A. 5 3    B. 3 5    C. 8 8    D. Error
+
+Câu 32. Sau code, x = ?
+  x = 10
+  x = x + 5
+
+  A. 10    B. 15    C. 5    D. Error
+
+Câu 33. Sau code, x = ?
+  x = 10
+  x += 5
+
+  A. 10    B. 15    C. 5    D. Error
+
+Câu 34. Sau code, x = ?
+  x = 10
+  x *= 2
+
+  A. 10    B. 12    C. 20    D. Error
+
+Câu 35. Sau code, x = ?
+  x = 20
+  x -= 5
+
+  A. 20    B. 15    C. 25    D. Error
+
+Câu 36. Cú pháp nào ĐÚNG cho biến?
+  A. 1_var = 10
+  B. var-1 = 10
+  C. var_1 = 10
+  D. var 1 = 10
+
+Câu 37. Khái niệm "gán" (assignment) trong Python là?
+  A. So sánh giá trị
+  B. Đặt giá trị vào biến
+  C. Khai báo kiểu
+  D. Xóa biến
+
+Câu 38. Sau code, giá trị in ra?
+  x = 5
+  y = x
+  y = 10
+  print(x)
+
+  A. 5    B. 10    C. 0    D. None
+
+Câu 39. id(x) trả về gì?
+  A. Tên biến
+  B. Địa chỉ bộ nhớ (mã định danh) của đối tượng
+  C. Giá trị biến
+  D. Kiểu biến
+
+Câu 40. Hai biến cùng giá trị có cùng id() không?
+  A. Luôn có
+  B. Có thể có (với int nhỏ, chuỗi ngắn)
+  C. Không bao giờ
+  D. Chỉ với float
+
+Câu 41. Biến cục bộ (local) là gì?
+  A. Biến chỉ tồn tại trong một hàm
+  B. Biến tồn tại toàn chương trình
+  C. Biến import
+  D. Biến hằng số
+
+Câu 42. Biến toàn cục (global) là gì?
+  A. Biến cục bộ trong hàm
+  B. Biến khai báo ngoài mọi hàm, dùng được mọi nơi
+  C. Biến trong vòng lặp
+  D. Biến tạm thời
+
+Câu 43. Từ khóa global dùng để?
+  A. Khai báo biến toàn cục bên trong hàm
+  B. Tạo biến cục bộ
+  C. Xóa biến
+  D. So sánh biến
+
+Câu 44. 
+
+Câu 45. type(x) sau x = "abc" trả về?
+  A. <class 'int'>
+  B. <class 'str'>
+  C. <class 'list'>
+  D. <class 'char'>
+
+Câu 46. Có thể dùng emoji làm tên biến không?
+  A. Có
+  B. Không
+  C. Chỉ trong chuỗi
+  D. Tùy phiên bản
+
+Câu 47. Sau code, giá trị x?
+  x = "5"
+  x = int(x) + 3
+  
+  A. "8"    B. 8    C. "53"    D. Error
+
+Câu 48. Tên biến nào tốt cho "số học sinh"?
+  A. x
+  B. n
+  C. so_hoc_sinh
+  D. var
+
+Câu 49. Tên biến None, True, False?
+  A. Là từ khóa, không được dùng làm tên biến
+  B. Được phép dùng
+  C. Chỉ dùng được trong hàm
+  D. Chỉ dùng trong class
+
+Câu 50. Có thể đặt tên biến tiếng Việt không (vd: tên = "An")?
+  A. Không
+  B. Có, Python 3 hỗ trợ Unicode
+  C. Chỉ với chữ không dấu
+  D. Chỉ với chuỗi
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-A   2-C   3-C   4-D   5-B   6-B   7-B   8-B   9-B   10-C
+11-D  12-B  13-C  14-B  15-B  16-C  17-B  18-A  19-A  20-C
+21-B  22-C  23-A  24-B  25-B  26-B  27-B  28-C  29-C  30-A
+31-B  32-B  33-B  34-C  35-B  36-C  37-B  38-A  39-B  40-B
+41-A  42-B  43-A  44-C  45-B  46-B  47-B  48-C  49-A  50-B
+══════════════════════════════════════════════

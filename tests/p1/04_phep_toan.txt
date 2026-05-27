@@ -1,0 +1,167 @@
+╔══════════════════════════════════════════════════════════════════╗
+║          PHẦN 4: PHÉP TOÁN TRÊN DỮ LIỆU CƠ BẢN                  ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Toán tử chia lấy phần dư?
+  A. /    B. //    C. %    D. **
+
+Câu 2. 17 % 5 = ?
+  A. 3    B. 2    C. 5    D. 1
+
+Câu 3. ** là phép gì?
+  A. Chia    B. Nhân đôi    C. Lũy thừa    D. Chia phần nguyên
+
+Câu 4. 2 ** 10 = ?
+  A. 20    B. 512    C. 1024    D. 100
+
+Câu 5. 15 // 4 = ?
+  A. 3.75    B. 4    C. 3    D. 1
+
+Câu 6. 10 / 3 trong Python 3 = ?
+  A. 3    B. 3.0    C. 3.3333...    D. 4
+
+Câu 7. Phép nối chuỗi dùng toán tử?
+  A. *    B. &    C. +    D. .
+
+Câu 8. "Hello" + " " + "World" = ?
+  A. HelloWorld    B. Hello World    C. "Hello World"    D. Error
+
+Câu 9. "Ha" * 3 = ?
+  A. "Ha Ha Ha"    B. "HaHaHa"    C. "Ha3"    D. Error
+
+Câu 10. Thứ tự ưu tiên trong Python?
+  A. +/- trước, */% sau
+  B. Tất cả ngang nhau
+  C. ** > */% > +/-
+  D. Phải sang trái
+
+Câu 11. 3 + 4 * 2 = ?
+  A. 14    B. 11    C. 10    D. 24
+
+Câu 12. (3 + 4) * 2 = ?
+  A. 11    B. 14    C. 24    D. 10
+
+Câu 13. Toán tử gán?
+  A. ==    B. :=    C. =    D. =>
+
+Câu 14. x += 5 nghĩa là?
+  A. x = 5
+  B. x == 5
+  C. x = x + 5
+  D. So sánh x với 5
+
+Câu 15. x = 10; x -= 3 → x = ?
+  A. 13    B. 7    C. 10    D. -3
+
+Câu 16. -5 % 3 trong Python = ?
+  A. -2    B. 2    C. 1    D. -1
+
+Câu 17. abs(-7) = ?
+  A. -7    B. 7    C. 0    D. Error
+
+Câu 18. round(3.567, 2) = ?
+  A. 3.5    B. 3.57    C. 4.0    D. 3.6
+
+Câu 19. max(3, 7, 1, 9, 4) = ?
+  A. 3    B. 1    C. 9    D. 4
+
+Câu 20. min(3, 7, 1, 9, 4) = ?
+  A. 3    B. 1    C. 9    D. 4
+
+Câu 21. 5 ** 2 + 5 % 2 = ?
+  A. 25    B. 26    C. 27    D. 30
+
+Câu 22. x *= 3 tương đương?
+  A. x = 3    B. x = x * 3    C. x == 3    D. x / 3
+
+Câu 23. x /= 2 tương đương?
+  A. x = 2    B. x = x / 2    C. x == 2    D. x * 2
+
+Câu 24. x //= 3 tương đương?
+  A. x = x // 3    B. x = x / 3    C. x = 3    D. x = x % 3
+
+Câu 25. x %= 4 tương đương?
+  A. x = 4    B. x = x % 4    C. x = x * 4    D. x = x / 4
+
+Câu 26. x **= 2 tương đương?
+  A. x = 2    B. x = x ** 2    C. x = x * 2    D. x == 2
+
+Câu 27. 10 % 2 = ?
+  A. 5    B. 0    C. 2    D. 1
+
+Câu 28. 7 / 2 = ?
+  A. 3    B. 3.5    C. 4    D. 3.0
+
+Câu 29. 7 // 2 = ?
+  A. 3.5    B. 3    C. 4    D. 3.0
+
+Câu 30. 0 ** 0 trong Python = ?
+  A. 0    B. 1    C. Error    D. None
+
+Câu 31. round(2.5) trong Python = ?
+  A. 2    B. 3    C. 2.5    D. 2.0
+
+Câu 32. round(3.5) trong Python = ?
+  A. 3    B. 4    C. 3.5    D. 4.0
+
+Câu 33. Phép cộng số nguyên + số thực cho kiểu?
+  A. int    B. float    C. str    D. Error
+
+Câu 34. 2 + 3 * 4 ** 2 = ?
+  A. 50    B. 80    C. 100    D. 256
+
+Câu 35. (2 + 3) * 4 ** 2 = ?
+  A. 50    B. 80    C. 100    D. 256
+
+Câu 36. ((2 + 3) * 4) ** 2 = ?
+  A. 50    B. 80    C. 400    D. 256
+
+Câu 37. Thứ tự thực hiện phép tính 6 / 2 * 3?
+  A. (6 / 2) * 3 = 9
+  B. 6 / (2 * 3) = 1
+  C. Error
+  D. 6
+
+Câu 38. Toán tử nào KHÔNG có trong Python?
+  A. //    B. **    C. ++    D. %
+
+Câu 39.
+
+Câu 40. Để tăng x lên 1 trong Python ta dùng?
+  A. x++    B. x += 1    C. ++x    D. x = x + +
+
+Câu 41.
+
+Câu 42. pow(2, 8) = ?
+  A. 16    B. 64    C. 128    D. 256
+
+Câu 43.
+
+Câu 44.
+
+Câu 45.
+
+Câu 46. 100 // 7 = ?
+  A. 14    B. 14.28    C. 15    D. 7
+
+Câu 47. 100 % 7 = ?
+  A. 2    B. 14    C. 7    D. 0
+
+Câu 48. 9 - 3 + 2 = ?
+  A. 4    B. 8    C. 14    D. 10
+
+Câu 49.
+
+Câu 50. (-3) ** 2 = ?
+  A. -9    B. 9    C. 6    D. Error
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-C   2-B   3-C   4-C   5-C   6-C   7-C   8-B   9-B   10-C
+11-B  12-B  13-C  14-C  15-B  16-B  17-B  18-B  19-C  20-B
+21-C  22-B  23-B  24-A  25-B  26-B  27-B  28-B  29-B  30-B
+31-A  32-B  33-B  34-A  35-B  36-C  37-A  38-C  39-B  40-B
+41-A  42-D  43-A  44-B  45-A  46-A  47-A  48-B  49-B  50-B
+══════════════════════════════════════════════

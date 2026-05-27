@@ -1,0 +1,184 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           PHẦN 7: CHUYỂN ĐỔI KIỂU DỮ LIỆU                       ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Hàm chuyển sang int?
+  A. integer()    B. num()    C. int()    D. toInt()
+
+Câu 2. Hàm chuyển sang float?
+  A. double()    B. float()    C. real()    D. decimal()
+
+Câu 3. Hàm chuyển sang str?
+  A. string()    B. text()    C. char()    D. str()
+
+Câu 4. int("42") = ?
+  A. "42"    B. 42.0    C. 42    D. Error
+
+Câu 5. float("3.14") = ?
+  A. "3.14"    B. 3.14    C. 3    D. Error
+
+Câu 6. str(100) = ?
+  A. 100    B. 100.0    C. "100"    D. True
+
+Câu 7. int(3.9) = ?
+  A. 4    B. 3    C. 3.9    D. Error
+
+Câu 8. int("3.5") = ?
+  A. 3    B. 4    C. 3.5    D. ValueError
+
+Câu 9. Cách chuyển "3.5" → int?
+  A. int("3.5")
+  B. int(float("3.5"))
+  C. round("3.5")
+  D. integer("3.5")
+
+Câu 10. bool(0) = ?
+  A. True    B. False    C. 0    D. None
+
+Câu 11. bool("") = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 12. Giá trị nào chuyển bool → True?
+  A. 0    B. ""    C. None    D. "hello"
+
+Câu 13. bool(1) = ?
+  A. 1    B. False    C. True    D. Error
+
+Câu 14. bool(-1) = ?
+  A. True    B. False    C. 0    D. Error
+
+Câu 15. Tại sao cần chuyển kiểu với input()?
+  A. input trả bool
+  B. input trả str, cần chuyển sang số để tính
+  C. input trả int
+  D. Không cần
+
+Câu 16. x = "5"; y = "3"; print(int(x) + int(y)) → ?
+  A. 53    B. 8    C. "8"    D. Error
+
+Câu 17. x = "5"; y = "3"; print(x + y) → ?
+  A. 8    B. 53    C. "8"    D. Error
+
+Câu 18. float(True) = ?
+  A. True    B. 0.0    C. 1.0    D. Error
+
+Câu 19. str(True) = ?
+  A. "1"    B. "true"    C. "True"    D. True
+
+Câu 20. int(True) + int(False) = ?
+  A. 0    B. 1    C. 2    D. Error
+
+Câu 21. Đoạn nào ĐÚNG để tính tổng 2 số nhập?
+  A. print(input("a:") + input("b:"))
+  B. print(int(input()) + int(input()))
+  C. print(float(input) + float(input))
+  D. print(a + b)
+
+Câu 22. int("abc") cho?
+  A. 0    B. None    C. ValueError    D. "abc"
+
+Câu 23. float("3.5e2") = ?
+  A. Error    B. 350.0    C. 3.5    D. 3.5e2
+
+Câu 24. bool("False") = ?
+  A. False
+  B. True (vì chuỗi không rỗng)
+  C. Error
+  D. None
+
+Câu 25.
+
+Câu 26.
+
+Câu 27. str(3.14) = ?
+  A. 3.14    B. "3.14"    C. "3"    D. Error
+
+Câu 28. int(2.99) = ?
+  A. 2    B. 3    C. 2.99    D. Error
+
+Câu 29. int(-2.99) = ?
+  A. -2
+  B. -3
+  C. -2.99
+  D. 3
+
+Câu 30. round(-2.5) = ?
+  A. -2    B. -3    C. 2    D. 3
+
+Câu 31. round(2.567, 1) = ?
+  A. 2.6    B. 2.5    C. 2.57    D. 2
+
+Câu 32. int(float("2.99")) = ?
+  A. 2    B. 3    C. 2.99    D. Error
+
+Câu 33. type(int("5")) = ?
+  A. <class 'str'>
+  B. <class 'int'>
+  C. <class 'float'>
+  D. <class 'bool'>
+
+Câu 34. type(str(5)) = ?
+  A. <class 'str'>
+  B. <class 'int'>
+  C. <class 'float'>
+  D. <class 'bool'>
+
+Câu 35. type(float(5)) = ?
+  A. <class 'str'>
+  B. <class 'int'>
+  C. <class 'float'>
+  D. <class 'bool'>
+
+Câu 36. Đoạn code này lỗi gì?
+  age = input("Tuổi: ")  # nhập 20
+  if age > 18: print("Lớn")
+
+  A. Không lỗi
+  B. So sánh str với int → TypeError
+  C. Lỗi nhập
+  D. Lỗi in
+
+Câu 37. Sửa lỗi đúng:
+  age = input("Tuổi: ")
+  
+  A. age = int(input("Tuổi: "))
+  B. age = float("Tuổi")
+  C. age = str(input())
+  D. Không sửa được
+
+Câu 38. 
+
+Câu 39. 
+
+Câu 40. 
+
+Câu 41.
+
+Câu 42. 
+
+Câu 43. 
+
+Câu 44. 
+
+Câu 45. 
+
+Câu 46. 
+
+Câu 47. 
+
+Câu 48. 
+
+Câu 49. 
+
+Câu 50. 
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-C   2-B   3-D   4-C   5-B   6-C   7-B   8-D   9-B   10-B
+11-B  12-D  13-C  14-A  15-B  16-B  17-B  18-C  19-C  20-B
+21-B  22-C  23-B  24-B  25-B  26-A  27-B  28-A  29-A  30-A
+31-A  32-A  33-B  34-A  35-C  36-B  37-A  38-C  39-B  40-A
+41-A  42-A  43-A  44-B  45-A  46-B  47-B  48-D  49-C  50-B
+══════════════════════════════════════════════

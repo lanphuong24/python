@@ -1,0 +1,441 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                  PHẦN 9: CÂU LỆNH IF                             ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Cú pháp if ĐÚNG?
+  A. if (x > 5) { }
+  B. if x > 5:
+  C. if x > 5 then
+  D. if (x > 5):
+
+Câu 2. Khối lệnh bên trong if được nhận biết bằng?
+  A. Dấu {}
+  B. Dấu ()
+  C. Thụt lề
+  D. Từ "do"
+
+Câu 3. Từ khóa nào cho nhánh "ngược lại"?
+  A. otherwise
+  B. default
+  C. else
+  D. not
+
+Câu 4. Từ khóa cho nhiều điều kiện liên tiếp?
+  A. elseif
+  B. else if
+  C. elif
+  D. orif
+
+Câu 5. Đoạn code sau in ra gì?
+    x = 10
+    if x > 5:
+        print("L")
+  A. Không in
+  B. L
+  C. False
+  D. Error
+
+Câu 6. Đoạn code sau in ra gì?
+    x = 3
+    if x > 5:
+        print("A")
+    else:
+        print("B")
+  A. A
+  B. B
+  C. AB
+  D. Error
+
+Câu 7. Đoạn code sau in ra gì?
+    x = 75
+    if x >= 90:
+        print("XS")
+    elif x >= 70:
+        print("G")
+    else:
+        print("K")
+  A. XS
+  B. G
+  C. K
+  D. G và K
+
+Câu 8. Python xác định khối lệnh if bằng gì?
+  A. {}
+  B. Thụt lề 4 spaces hoặc 1 Tab
+  C. Từ khóa "end"
+  D. Dấu ;
+
+Câu 9. Đoạn code sau có lỗi gì?
+    if x > 3:
+    print("OK")
+  A. Không lỗi
+  B. IndentationError (thiếu thụt lề)
+  C. Thiếu {}
+  D. Thiếu else
+
+Câu 10. Có thể lồng if bên trong if không?
+  A. Không
+  B. Có (nested if)
+  C. Chỉ 1 lần
+  D. Chỉ với elif
+
+Câu 11. Đoạn code sau in ra gì?
+    a = 5
+    b = 10
+    if a > b:
+        print("a lớn hơn")
+    elif a == b:
+        print("Bằng nhau")
+    else:
+        print("b lớn hơn")
+  A. a lớn hơn
+  B. Bằng nhau
+  C. b lớn hơn
+  D. Error
+
+Câu 12. Điều kiện if có thể là số không?
+    if 1:
+        print("OK")
+  A. Không, phải bool
+  B. Có (số khác 0 → True)
+  C. Lỗi
+  D. Tùy
+
+Câu 13. Đoạn code sau in ra gì?
+    s = ""
+    if s:
+        print("Có")
+    else:
+        print("Rỗng")
+  A. Có
+  B. Rỗng
+  C. Error
+  D. None
+
+Câu 14. Đoạn code sau in ra gì?
+    x = 15
+    if x % 2 == 0:
+        print("C")
+    else:
+        print("L")
+  A. C
+  B. L
+  C. 15
+  D. Error
+
+Câu 15. if có bắt buộc phải có else không?
+  A. Có, luôn phải có
+  B. Không, else là tùy chọn
+  C. Phải có elif
+  D. Sẽ lỗi nếu không có
+
+Câu 16. Đoạn code sau in ra gì?
+    x = 5
+    if x > 0:
+        if x > 3:
+            print("lon3")
+        else:
+            print("1-3")
+    else:
+        print("am")
+  A. am
+  B. 1-3
+  C. lon3
+  D. Error
+
+Câu 17. Đoạn code sau in ra gì?
+    x = 7
+    if x > 10:
+        print("A")
+    elif x > 5:
+        print("B")
+    else:
+        print("C")
+  A. A
+  B. B
+  C. C
+  D. Không in gì
+
+Câu 18. Đoạn code sau in ra gì?
+    x = 0
+    if x:
+        print("Có")
+    else:
+        print("Không")
+  A. Có
+  B. Không
+  C. 0
+  D. Error
+
+Câu 19. Đoạn code sau in ra gì?
+    tuoi = 20
+    if tuoi >= 18 and tuoi < 60:
+        print("LĐ")
+    else:
+        print("Không")
+  A. Không
+  B. LĐ
+  C. Error
+  D. True
+
+Câu 20. 
+
+Câu 21. Có thể có nhiều elif không?
+  A. Không
+  B. Có
+  C. Tối đa 2
+  D. Tùy phiên bản
+
+Câu 22. Thứ tự đúng của các nhánh?
+  A. if → elif → else
+  B. else → elif → if
+  C. if → else → elif
+  D. Tùy ý
+
+Câu 23. else đứng ở đâu?
+  A. Trước if
+  B. Sau if/elif cuối cùng
+  C. Bất cứ đâu
+  D. Trước elif
+
+Câu 24. Sau if x > 5 cần dấu gì?
+  A. ;
+  B. :
+  C. {
+  D. then
+
+Câu 25. Đoạn code nào ĐÚNG?
+  A.
+        if x > 5:
+            print(x)
+  B.
+        if x > 5
+            print(x)
+  C.
+        if (x > 5)
+            print(x)
+  D.
+        if x > 5 then print(x)
+
+Câu 26. Đoạn code sau thực thi khi nào?
+    if a or b:
+        ...
+  A. Cả a và b đều True
+  B. Ít nhất 1 True
+  C. Cả 2 đều False
+  D. Luôn luôn
+
+Câu 27. Đoạn code sau thực thi khi nào?
+    if a and b:
+        ...
+  A. Cả 2 đều True
+  B. Ít nhất 1 True
+  C. Cả 2 đều False
+  D. Luôn luôn
+
+Câu 28. Đoạn code sau thực thi khi x bằng gì?
+    if not x:
+        ...
+  A. True
+  B. False/0/"" (giá trị falsy)
+  C. Bất kỳ
+  D. Chỉ None
+
+Câu 29. Đoạn code sau in ra gì?
+    x = 10
+    if 5 < x < 20:
+        print("OK")
+    else:
+        print("No")
+  A. OK
+  B. No
+  C. Error
+  D. None
+
+Câu 30. Đoạn code sau in ra gì?
+    x = 25
+    if 5 < x < 20:
+        print("OK")
+    else:
+        print("No")
+  A. OK
+  B. No
+  C. Error
+  D. None
+
+Câu 31. Đoạn code sau in ra gì?
+    x = 5
+    result = "lớn" if x > 10 else "nhỏ"
+    print(result)
+  A. lớn
+  B. nhỏ
+  C. 5
+  D. Error
+
+Câu 32. Điều kiện if có thể là kết quả hàm không?
+  A. Không
+  B. Có
+  C. Chỉ với len()
+  D. Chỉ với int
+
+Câu 33. Đoạn code sau thực thi khối if không?
+    if len("abc") > 0:
+        print("yes")
+  A. Có (len = 3 > 0)
+  B. Không
+  C. Error
+  D. Tùy
+
+Câu 34. Đoạn code sau in ra gì?
+    x = None
+    if x:
+        print("có")
+    else:
+        print("không")
+  A. có
+  B. không
+  C. None
+  D. Error
+
+Câu 35. Đoạn code sau in ra gì?
+    x = []
+    if x:
+        print("có")
+    else:
+        print("không")
+  A. có
+  B. không
+  C. Error
+  D. None
+
+Câu 36. Đoạn code sau in ra gì?
+    x = [0]
+    if x:
+        print("có")
+    else:
+        print("không")
+  A. có (list không rỗng)
+  B. không
+  C. Error
+  D. None
+
+Câu 37. Cấu trúc if-elif-else bắt buộc?
+  A. Phải có cả 3
+  B. if bắt buộc, elif và else tùy chọn
+  C. Chỉ if là tùy chọn
+  D. Phải có elif
+
+Câu 38. Số nhánh elif tối đa?
+  A. 1
+  B. 5
+  C. Không giới hạn
+  D. 10
+
+Câu 39. Có thể bỏ qua else không?
+  A. Không
+  B. Có
+  C. Chỉ với elif
+  D. Chỉ Python 3
+
+Câu 40. Đoạn code nào in "OK" khi x = 5?
+  A.
+        if x == 5:
+            print("OK")
+  B.
+        if x = 5:
+            print("OK")
+  C.
+        if x === 5:
+            print("OK")
+  D.
+        if equal(x, 5):
+            print("OK")
+
+Câu 41. Đoạn code sau có lỗi gì?
+    if x == 5
+        print("OK")
+  A. Không lỗi
+  B. Thiếu dấu : sau điều kiện
+  C. Thiếu {}
+  D. Thiếu return
+
+Câu 42. Với x = 7, nhánh nào chạy?
+    if x < 5:
+        print("A")
+    elif x < 10:
+        print("B")
+    elif x < 20:
+        print("C")
+    else:
+        print("D")
+  A. A
+  B. B
+  C. C
+  D. D
+
+Câu 43. Với x = 15, nhánh nào chạy?
+    if x < 5:
+        print("A")
+    elif x < 10:
+        print("B")
+    elif x < 20:
+        print("C")
+    else:
+        print("D")
+  A. A
+  B. B
+  C. C
+  D. D
+
+Câu 44. Với x = 25, nhánh nào chạy?
+    if x < 5:
+        print("A")
+    elif x < 10:
+        print("B")
+    elif x < 20:
+        print("C")
+    else:
+        print("D")
+  A. A
+  B. B
+  C. C
+  D. D
+
+Câu 45. Khác biệt giữa "if x:" và "if x == True:"?
+  A. Hoàn toàn giống
+  B. Khác – if x kiểm tra truthy; if x == True chỉ đúng khi x là True
+  C. Cả 2 đều sai
+  D. Chỉ if x mới đúng
+
+Câu 46. Đoạn code sau in gì khi diem = 8?
+    if diem >= 9:
+        print("XS")
+    elif diem >= 7:
+        print("G")
+    elif diem >= 5:
+        print("TB")
+    else:
+        print("Y")
+  A. XS
+  B. G
+  C. TB
+  D. Y
+
+Câu 47. 
+
+Câu 48. 
+
+Câu 49. 
+
+Câu 50. 
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-C   4-C   5-B   6-B   7-B   8-B   9-B   10-B
+11-C  12-B  13-B  14-B  15-B  16-C  17-B  18-B  19-B  20-B
+21-B  22-A  23-B  24-B  25-A  26-B  27-A  28-B  29-A  30-B
+31-B  32-B  33-A  34-B  35-B  36-A  37-B  38-C  39-B  40-A
+41-B  42-B  43-C  44-D  45-B  46-B  47-A  48-B  49-B  50-B
+══════════════════════════════════════════════

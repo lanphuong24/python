@@ -1,0 +1,488 @@
+╔══════════════════════════════════════════════════════════════════╗
+║       100 CÂU TRẮC NGHIỆM TỔNG HỢP - PYTHON CƠ BẢN              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+─── PHẦN A: GIỚI THIỆU NGÔN NGỮ LẬP TRÌNH (Câu 1–10) ───
+
+Câu 1. Python thuộc loại ngôn ngữ nào?
+  A. Ngôn ngữ máy
+  B. Hợp ngữ (Assembly)
+  C. Ngôn ngữ bậc cao
+  D. Ngôn ngữ bậc thấp
+
+Câu 2. Ai là người tạo ra Python?
+  A. Linus Torvalds
+  B. Guido van Rossum
+  C. James Gosling
+  D. Bjarne Stroustrup
+
+Câu 3. Máy tính hiểu trực tiếp loại ngôn ngữ nào?
+  A. Tiếng Anh
+  B. Python
+  C. Mã nhị phân (0 và 1)
+  D. HTML
+
+Câu 4. File mã nguồn Python có đuôi là gì?
+  A. .java
+  B. .txt
+  C. .py
+  D. .exe
+
+Câu 5. Python được phát hành lần đầu vào năm nào?
+  A. 1975
+  B. 1991
+  C. 2000
+  D. 2010
+
+Câu 6. Python sử dụng cơ chế nào để thực thi code?
+  A. Biên dịch toàn bộ trước rồi chạy
+  B. Thông dịch từng dòng
+  C. Chỉ chạy trên trình duyệt
+  D. Chỉ chạy trên terminal
+
+Câu 7. Ưu điểm nổi bật của Python là gì?
+  A. Cú pháp phức tạp
+  B. Cú pháp đơn giản, dễ đọc
+  C. Chạy nhanh nhất
+  D. Chỉ dùng cho hệ thống nhúng
+
+Câu 8. Python KHÔNG được sử dụng phổ biến trong lĩnh vực nào?
+  A. Phân tích dữ liệu
+  B. Trí tuệ nhân tạo
+  C. Phát triển web
+  D. Lập trình firmware cho vi điều khiển 8-bit
+
+Câu 9. "Thuật toán" có nghĩa là gì?
+  A. Một loại ngôn ngữ lập trình
+  B. Tập các bước giải quyết bài toán theo trình tự
+  C. Phần cứng của máy tính
+  D. Một loại lỗi trong code
+
+─── PHẦN B: BIẾN (Câu 11–20) ───
+
+Câu 11. Cú pháp gán giá trị cho biến trong Python là?
+  A. var x = 10
+  B. int x = 10
+  C. x = 10
+  D. x := 10
+
+Câu 12. Tên biến nào HỢP LỆ?
+  A. 2hoc_sinh
+  B. ho-ten
+  C. _diem
+  D. for
+
+Câu 13. Tên biến nào KHÔNG hợp lệ?
+  A. ten1
+  B. _x
+  C. my_var
+  D. 1ten
+
+Câu 14. Python có phân biệt chữ hoa, chữ thường trong tên biến không?
+  A. Có
+  B. Không
+  C. Chỉ với biến số
+  D. Tùy phiên bản
+
+Câu 15. Sau đoạn code này, x bằng bao nhiêu?
+  x = 5
+  x = 20
+  A. 5
+  B. 20
+  C. 25
+  D. Error
+
+Câu 16. Câu lệnh a, b = 3, 4 làm gì?
+  A. So sánh a với b
+  B. Gán a = 3 và b = 4
+  C. Cộng a với b
+  D. Lỗi cú pháp
+
+Câu 17. Sau đoạn code, b bằng mấy?
+  a = 10
+  b = a
+  a = 20
+  A. 10
+  B. 20
+  C. 30
+  D. None
+
+Câu 18. Kiểu của biến x sau lệnh x = 3.14?
+  A. int
+  B. float
+  C. str
+  D. bool
+
+Câu 19. Quy ước snake_case là?
+  A. tenBien
+  B. TenBien
+  C. ten_bien
+  D. TENBIEN
+
+Câu 20. a, b = b, a có tác dụng gì?
+  A. Báo lỗi
+  B. Đổi chỗ giá trị 2 biến
+  C. Gán a = b
+  D. So sánh a và b
+
+─── PHẦN C: KIỂU DỮ LIỆU (Câu 21–30) ───
+
+Câu 21. Kiểu nào lưu số nguyên?
+  A. float    B. str    C. int    D. bool
+
+Câu 22. Kiểu nào lưu số thực?
+  A. int    B. float    C. str    D. complex
+
+Câu 23. Kiểu nào lưu giá trị True/False?
+  A. int    B. float    C. str    D. bool
+
+Câu 24. Kiểu của "Xin chào" là?
+  A. int    B. float    C. str    D. char
+
+Câu 25. Hàm nào kiểm tra kiểu dữ liệu?
+  A. check()    B. typeof()    C. type()    D. is()
+
+Câu 26. type(3.14) trả về?
+  A. <class 'int'>
+  B. <class 'float'>
+  C. <class 'str'>
+  D. <class 'number'>
+
+Câu 27. Giá trị nào KHÔNG phải kiểu bool?
+  A. True    B. False    C. None    D. (bool(1))
+
+Câu 28. None có kiểu dữ liệu là?
+  A. int    B. bool    C. NoneType    D. str
+
+Câu 29. Đâu là chuỗi rỗng?
+  A. None    B. 0    C. ""    D. False
+
+Câu 30. Trong Python, kiểu int có giới hạn không?
+  A. Tối đa 2^32
+  B. Tối đa 2^64
+  C. Không giới hạn (theo bộ nhớ)
+  D. Tối đa 65535
+
+─── PHẦN D: PHÉP TOÁN (Câu 31–40) ───
+
+Câu 31. Toán tử nào chia lấy phần dư?
+  A. /    B. //    C. %    D. **
+
+Câu 32. 17 % 5 = ?
+  A. 3    B. 2    C. 5    D. 0
+
+Câu 33. ** là phép gì?
+  A. Chia    B. Nhân    C. Lũy thừa    D. Modulo
+
+Câu 34. 2 ** 5 = ?
+  A. 10    B. 25    C. 32    D. 7
+
+Câu 35. 15 // 4 = ?
+  A. 3    B. 3.75    C. 4    D. 3.5
+
+Câu 36. 10 / 3 trong Python 3 = ?
+  A. 3    B. 3.3333    C. 3.0    D. 4
+
+Câu 37. "Hello" + "World" = ?
+  A. Hello World
+  B. HelloWorld
+  C. "HelloWorld"
+  D. Error
+
+Câu 38. "Ha" * 3 = ?
+  A. "HaHaHa"
+  B. "Ha Ha Ha"
+  C. "Ha3"
+  D. Error
+
+Câu 39. 3 + 4 * 2 = ?
+  A. 14    B. 11    C. 10    D. 24
+
+Câu 40. x += 5 tương đương với?
+  A. x = 5
+  B. x = x + 5
+  C. x == 5
+  D. x - 5
+
+─── PHẦN E: TỪ KHÓA (Câu 41–50) ───
+
+Câu 41. Đâu là từ khóa Python?
+  A. function    B. var    C. return    D. echo
+
+Câu 42. Từ khóa nào KHÔNG có trong Python?
+  A. for    B. while    C. loop    D. if
+
+Câu 43.
+
+Câu 44. 
+
+Câu 45. Từ khóa thoát vòng lặp?
+  A. exit    B. stop    C. break    D. end
+
+Câu 46. Từ khóa bỏ qua lần lặp hiện tại?
+  A. skip    B. next    C. continue    D. pass
+
+Câu 47. Từ khóa thay cho "không có giá trị"?
+  A. null    B. nil    C. None    D. void
+
+Câu 48. Từ khóa khai báo lớp?
+  A. struct    B. class    C. object    D. type
+
+Câu 49. 
+
+Câu 50. Từ khóa "không làm gì cả" (giữ chỗ)?
+  A. skip    B. nothing    C. pass    D. continue
+
+─── PHẦN F: INPUT/PRINT (Câu 51–60) ───
+
+Câu 51. Hàm print() để làm gì?
+  A. Nhận dữ liệu nhập
+  B. Hiển thị ra màn hình
+  C. Tính toán
+  D. Lưu file
+
+Câu 52. Hàm input() để làm gì?
+  A. In ra màn hình
+  B. Nhận dữ liệu từ bàn phím
+  C. Tính toán
+  D. Đọc file
+
+Câu 53. input() luôn trả về kiểu gì?
+  A. int    B. float    C. str    D. tự động
+
+Câu 54. print("A", "B", "C") in ra?
+  A. ABC
+  B. A B C
+  C. "A" "B" "C"
+  D. A,B,C
+
+Câu 55. print("A", "B", sep="-") in ra?
+  A. A B
+  B. AB
+  C. A-B
+  D. A,B
+
+Câu 56. Để in không xuống dòng dùng?
+  A. newline=False    B. end=""    C. sep=""    D. endl=False
+
+Câu 57. Cú pháp f-string đúng?
+  A. f"x = {x}"
+  B. "x = {x}"
+  C. f("x = ", x)
+  D. format("x = {}", x)
+
+Câu 58. Để nhập số nguyên từ bàn phím dùng?
+  A. input()
+  B. int(input())
+  C. number(input())
+  D. integer(input())
+
+Câu 59. print() không tham số sẽ làm gì?
+  A. Báo lỗi
+  B. In một dòng trống
+  C. Không làm gì
+  D. In ra "None"
+
+Câu 60. print("Py" * 3) in ra?
+  A. Py3
+  B. Py Py Py
+  C. PyPyPy
+  D. Error
+
+─── PHẦN G: CHUYỂN ĐỔI KIỂU DỮ LIỆU (Câu 61–70) ───
+
+Câu 61. int("99") = ?
+  A. "99"    B. 99    C. 99.0    D. Error
+
+Câu 62. float("3.14") = ?
+  A. "3.14"    B. 3.14    C. 3    D. Error
+
+Câu 63. str(100) = ?
+  A. 100    B. "100"    C. 100.0    D. True
+
+Câu 64. int(3.9) = ?
+  A. 3    B. 4    C. 3.9    D. Error
+
+Câu 65. int("3.5") trả về?
+  A. 3
+  B. 4
+  C. 3.5
+  D. Lỗi ValueError
+
+Câu 66. Cách đúng để chuyển "3.5" → số nguyên?
+  A. int("3.5")
+  B. int(float("3.5"))
+  C. round("3.5")
+  D. integer("3.5")
+
+Câu 67. bool(0) = ?
+  A. True    B. False    C. 0    D. None
+
+Câu 68. bool("") = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 69. bool("False") = ?
+  A. True
+  B. False
+  C. None
+  D. Error
+
+Câu 70. int(True) + int(False) = ?
+  A. 0    B. 1    C. 2    D. Error
+
+─── PHẦN H: BIỂU THỨC LOGIC & SO SÁNH (Câu 71–80) ───
+
+Câu 71. Phép so sánh "bằng" trong Python?
+  A. =    B. ==    C. ===    D. eq
+
+Câu 72. Phép so sánh "khác"?
+  A. <>    B. ≠    C. !=    D. not=
+
+Câu 73. 5 > 3 trả về?
+  A. 5    B. True    C. False    D. 1
+
+Câu 74. 5 == 5.0 trả về?
+  A. True    B. False    C. Error    D. None
+
+Câu 75. True and False = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 76. True or False = ?
+  A. True    B. False    C. None    D. Error
+
+Câu 77. not True = ?
+  A. True    B. False    C. None    D. 0
+
+Câu 78. (5 > 3) and (2 < 1) = ?
+  A. True    B. False    C. Error    D. None
+
+Câu 79. Giá trị nào được coi là False?
+  A. 1    B. "0"    C. 0    D. [1,2,3]
+
+Câu 80. 3 < 5 < 10 trong Python?
+  A. True
+  B. False
+  C. Error
+  D. Phải viết riêng
+
+─── PHẦN I: CÂU LỆNH IF (Câu 81–90) ───
+
+Câu 81. Cú pháp if đúng?
+  A. if (x > 5) { ... }
+  B. if x > 5:
+  C. if x > 5 then:
+  D. if (x > 5):
+
+Câu 82. Khối lệnh trong if được xác định bởi?
+  A. Dấu {}
+  B. Dấu ()
+  C. Thụt lề
+  D. Từ "end"
+
+Câu 83. Từ khóa cho nhánh "ngược lại"?
+  A. otherwise    B. else    C. default    D. not
+
+Câu 84. Từ khóa cho nhiều điều kiện?
+  A. else if    B. elseif    C. elif    D. orif
+
+Câu 85. x = 10, kết quả?
+  if x > 5: print("A")
+  else: print("B")
+  A. A    B. B    C. AB    D. Error
+
+Câu 86. Điều kiện if có thể là số không?
+  A. Không, phải bool
+  B. Có, ≠0 → True, =0 → False
+  C. Chỉ 0/1
+  D. Gây lỗi
+
+Câu 87. if "" thực thi không?
+  A. Có    B. Không    C. Error    D. Phụ thuộc
+
+Câu 88. Lệnh sau in gì với x = 15?
+  if x % 2 == 0: print("C")
+  else: print("L")
+  A. C    B. L    C. 15    D. Error
+
+Câu 89. Có thể lồng if trong if không?
+  A. Không
+  B. Có (nested if)
+  C. Chỉ 1 lần
+  D. Chỉ với elif
+
+Câu 90. Khi nào dùng elif?
+  A. Khi có 2 nhánh
+  B. Khi có nhiều điều kiện cần kiểm tra liên tiếp
+  C. Khi thay thế else
+  D. Khi điều kiện đơn giản
+
+─── PHẦN J: VÒNG LẶP FOR & RANGE (Câu 91–100) ───
+
+Câu 91. range(5) tạo ra?
+  A. 1,2,3,4,5
+  B. 0,1,2,3,4
+  C. 0,1,2,3,4,5
+  D. 1,2,3,4
+
+Câu 92. range(1, 6) tạo ra?
+  A. 1,2,3,4,5
+  B. 1,2,3,4,5,6
+  C. 0,1,2,3,4,5
+  D. 2,3,4,5
+
+Câu 93. range(0, 10, 2) tạo ra?
+  A. 0,2,4,6,8,10
+  B. 0,2,4,6,8
+  C. 2,4,6,8
+  D. 1,3,5,7,9
+
+Câu 94. 
+for i in range(3):
+    print(i)
+
+  A. 1 2 3
+  B. 0 1 2 (mỗi số 1 dòng)
+  C. 0 1 2 3
+  D. Error
+
+Câu 95. range(10, 0, -1) tạo ra?
+  A. 0...10    B. 10,9,...,0    C. 10,9,...,1    D. 9,8,...,0
+
+Câu 96. break trong vòng lặp?
+  A. Bỏ qua lần lặp
+  B. Thoát vòng lặp
+  C. Thoát chương trình
+  D. Quay về đầu
+
+Câu 97. continue trong vòng lặp?
+  A. Thoát vòng lặp
+  B. Bỏ qua phần còn lại, sang lần lặp tiếp theo
+  C. Thoát chương trình
+  D. Lặp lại lần này
+
+Câu 98. 
+
+Câu 99. tong = ?
+tong = 0;
+for i in range(1,11): 
+    tong += i
+
+  A. 45    B. 55    C. 50    D. 100
+
+Câu 100. range(2, 12, 2) lặp bao nhiêu lần?
+  A. 4    B. 5    C. 6    D. 10
+
+══════════════════════════════════════════════
+ĐÁP ÁN GỢI Ý
+──────────────────────────────────────────────
+1-C   2-B   3-C   4-C   5-B   6-B   7-B   8-D   9-B   10-D
+11-C  12-C  13-D  14-A  15-B  16-B  17-A  18-B  19-C  20-B
+21-C  22-B  23-D  24-C  25-C  26-B  27-C  28-C  29-C  30-C
+31-C  32-B  33-C  34-C  35-A  36-B  37-B  38-A  39-B  40-B
+41-C  42-C  43-C  44-B  45-C  46-C  47-C  48-B  49-B  50-C
+51-B  52-B  53-C  54-B  55-C  56-B  57-A  58-B  59-B  60-C
+61-B  62-B  63-B  64-A  65-D  66-B  67-B  68-B  69-A  70-B
+71-B  72-C  73-B  74-A  75-B  76-A  77-B  78-B  79-C  80-A
+81-B  82-C  83-B  84-C  85-A  86-B  87-B  88-B  89-B  90-B
+91-B  92-A  93-B  94-B  95-C  96-B  97-B  98-B  99-B  100-B
+══════════════════════════════════════════════

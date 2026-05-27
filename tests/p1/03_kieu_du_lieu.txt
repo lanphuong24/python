@@ -1,0 +1,184 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                PHẦN 3: KIỂU DỮ LIỆU (DATA TYPES)                ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Kiểu nào lưu số nguyên?
+  A. float    B. str    C. int    D. bool
+
+Câu 2. Kiểu nào lưu số thực?
+  A. int    B. float    C. str    D. complex
+
+Câu 3. Giá trị nào thuộc kiểu bool?
+  A. "True"    B. 1.0    C. True    D. 'false'
+
+Câu 4. Kiểu của "Xin chào!"?
+  A. int    B. float    C. bool    D. str
+
+Câu 5. Hàm kiểm tra kiểu dữ liệu?
+  A. check()    B. typeof()    C. type()    D. datatype()
+
+Câu 6. type(3.14) trả về?
+  A. <class 'int'>
+  B. <class 'str'>
+  C. <class 'float'>
+  D. <class 'number'>
+
+Câu 7. Giá trị nào là int?
+  A. 3.0    B. "3"    C. 3    D. "three"
+
+Câu 8. Giá trị None có kiểu?
+  A. int    B. bool    C. str    D. NoneType
+
+Câu 9. type(True) trả về?
+  A. <class 'int'>
+  B. <class 'str'>
+  C. <class 'bool'>
+  D. <class 'float'>
+
+Câu 10. Kiểu lưu chuỗi ký tự?
+  A. int    B. str    C. float    D. list
+
+Câu 11. Giá trị nào là float?
+  A. 5    B. "5.5"    C. 5.5    D. True
+
+Câu 12. Chuỗi (str) được bao bởi?
+  A. [ ]    B. { }    C. ' ' hoặc " "    D. ( )
+
+Câu 13. type(False) trả về?
+  A. <class 'int'>
+  B. <class 'str'>
+  C. <class 'NoneType'>
+  D. <class 'bool'>
+
+Câu 14. type(100) trả về?
+  A. <class 'float'>
+  B. <class 'int'>
+  C. <class 'str'>
+  D. <class 'bool'>
+
+Câu 15. Kiểu nào chứa cả chữ và số?
+  A. int    B. float    C. str    D. bool
+
+Câu 16. Giá trị bool tương đương 0?
+  A. True    B. False    C. None    D. 0.0
+
+Câu 17. Giá trị bool tương đương 1?
+  A. False    B. None    C. True    D. "True"
+
+Câu 18. Chuỗi rỗng là?
+  A. None    B. 0    C. ""    D. False
+
+Câu 19.
+
+Câu 20. Kiểu int trong Python có giới hạn?
+  A. Tối đa 2^32
+  B. Tối đa 2^64
+  C. Không giới hạn theo bộ nhớ
+  D. Tối đa 1000
+
+Câu 21. type("") trả về?
+  A. <class 'str'>
+  B. <class 'NoneType'>
+  C. <class 'bool'>
+  D. Error
+
+Câu 22. Cách viết chuỗi nhiều dòng?
+  A. """nhiều dòng"""
+  B. <multiline>
+  C. "/n"
+  D. str.multiline
+
+Câu 23. Cách thoát ký tự " trong chuỗi?
+  A. \"    B. //    C. ""    D. ##
+
+Câu 24. Cách biểu diễn ký tự xuống dòng?
+  A. \n    B. \t    C. \r    D. \\
+
+Câu 25. Cách biểu diễn ký tự Tab?
+  A. \n    B. \t    C. \r    D. \\
+
+Câu 26.
+
+Câu 27. Phép cộng số nguyên + số thực cho kiểu?
+  A. int    B. float    C. str    D. Error
+
+Câu 28. 5 + True = ?
+  A. Error    B. "5True"    C. 6    D. 5
+
+Câu 29. "5" + 5 trả về?
+  A. 10
+  B. "55"
+  C. Error TypeError
+  D. 55
+
+Câu 30.
+
+Câu 31.
+
+Câu 32.
+
+Câu 33.
+
+Câu 34.
+
+Câu 35.
+
+Câu 36. type(None) trả về?
+  A. <class 'NoneType'>
+  B. <class 'null'>
+  C. <class 'void'>
+  D. None
+
+Câu 37. None có giá trị bool tương đương?
+  A. True    B. False    C. 0    D. ""
+
+Câu 38.
+
+Câu 39.
+
+Câu 40. Kiểu của hằng số 3.0 trong Python?
+  A. int    B. float    C. double    D. real
+
+Câu 41. Có thể có chuỗi bằng nháy đơn không?
+  A. Không
+  B. Có
+  C. Chỉ Python 2
+  D. Chỉ với chữ tiếng Anh
+
+Câu 42. 
+
+Câu 43. Bool có phải là con của int không?
+  A. Không
+  B. Có (True=1, False=0)
+  C. Chỉ Python 2
+  D. Chỉ với True
+
+Câu 44. True + True = ?
+  A. Error    B. True    C. 2    D. "TrueTrue"
+
+Câu 45.
+
+Câu 46. 
+
+Câu 47. 
+
+Câu 48. Số 1_000_000 trong Python có giá trị?
+  A. 1
+  B. 1000000
+  C. Lỗi cú pháp
+  D. "1_000_000"
+
+Câu 49. 
+
+Câu 50.
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-C   2-B   3-C   4-D   5-C   6-C   7-C   8-D   9-C   10-B
+11-C  12-C  13-D  14-B  15-C  16-B  17-C  18-C  19-C  20-C
+21-A  22-A  23-A  24-A  25-B  26-C  27-B  28-C  29-C  30-A
+31-B  32-C  33-D  34-C  35-D  36-A  37-B  38-B  39-A  40-B
+41-B  42-B  43-B  44-C  45-D  46-B  47-B  48-B  49-B  50-A
+══════════════════════════════════════════════

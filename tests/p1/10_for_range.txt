@@ -1,0 +1,306 @@
+╔══════════════════════════════════════════════════════════════════╗
+║              PHẦN 10: VÒNG LẶP FOR VÀ HÀM RANGE()               ║
+║                  50 CÂU TRẮC NGHIỆM                              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Cú pháp for ĐÚNG?
+  A. for (i = 0; i < 5; i++) { }
+  B. for i in range(5):
+  C. for i = 0 to 5:
+  D. repeat 5:
+
+Câu 2. range(5) tạo ra dãy số nào?
+  A. 1, 2, 3, 4, 5
+  B. 0, 1, 2, 3, 4, 5
+  C. 0, 1, 2, 3, 4
+  D. 1, 2, 3, 4
+
+Câu 3. range(1, 6) tạo ra dãy số nào?
+  A. 1, 2, 3, 4, 5, 6
+  B. 1, 2, 3, 4, 5
+  C. 0, 1, 2, 3, 4, 5
+  D. 2, 3, 4, 5
+
+Câu 4. range(0, 10, 2) tạo ra dãy số nào?
+  A. 0, 2, 4, 6, 8, 10
+  B. 0, 2, 4, 6, 8
+  C. 2, 4, 6, 8
+  D. 1, 3, 5, 7, 9
+
+Câu 5. Đoạn code sau in ra gì?
+    for i in range(3):
+        print(i)
+  A. 1 2 3
+  B. 0 / 1 / 2 (mỗi số trên 1 dòng)
+  C. 0 1 2 3
+  D. Error
+
+Câu 6. range() nhận tối đa bao nhiêu tham số?
+  A. 1
+  B. 2
+  C. 3
+  D. 4
+
+Câu 7. Ý nghĩa range(start, stop, step)?
+  A. bắt đầu, kết thúc (không gồm), bước nhảy
+  B. bắt đầu, kết thúc (gồm), bước nhảy
+  C. bước, bắt đầu, kết thúc
+  D. tổng, bắt đầu, kết thúc
+
+Câu 8. Đoạn code sau in ra gì?
+    for i in range(1, 10, 3):
+        print(i, end=" ")
+  A. 1 4 7 10
+  B. 1 4 7
+  C. 1 3 6 9
+  D. 1 2 3
+
+Câu 9. Sau đoạn code, tong bằng bao nhiêu?
+    tong = 0
+    for i in range(1, 6):
+        tong += i
+  A. 10
+  B. 15
+  C. 21
+  D. 6
+
+Câu 10. Đoạn code sau in ra gì?
+    for c in "Python":
+        print(c)
+  A. Không hỗ trợ str
+  B. Từng ký tự P, y, t, h, o, n (mỗi ký tự 1 dòng)
+  C. "Python"
+  D. Error
+
+Câu 11. range(10, 0, -1) tạo ra dãy số nào?
+  A. 0..10
+  B. 10..0
+  C. 10, 9, 8, ..., 1
+  D. 9, 8, ..., 0
+
+Câu 12. Đoạn code sau in ra gì?
+    for i in range(5):
+        if i == 3:
+            break
+        print(i)
+  A. 0 1 2 3 4
+  B. 0 1 2 3
+  C. 0 1 2
+  D. 3 4
+
+Câu 13. Đoạn code sau in ra gì?
+    for i in range(5):
+        if i == 3:
+            continue
+        print(i)
+  A. 0 1 2 3 4
+  B. 0 1 2 4
+  C. 0 1 2
+  D. 3
+
+Câu 14. range(2, 12, 2) có bao nhiêu phần tử?
+  A. 4
+  B. 5
+  C. 6
+  D. 10
+
+Câu 15. Có thể lồng for không?
+  A. Không
+  B. Có (nested loop)
+  C. Chỉ 1 lần
+  D. Chỉ với while
+
+Câu 16. Đoạn code sau in ra bao nhiêu dấu *?
+    for i in range(3):
+        for j in range(4):
+            print("*", end="")
+  A. 7
+  B. 12
+  C. 9
+  D. 4
+
+Câu 17. Sau đoạn code, i bằng bao nhiêu?
+    for i in range(5):
+        pass
+  A. 5
+  B. 4
+  C. 0
+  D. Không tồn tại
+
+Câu 18. Đoạn code sau in ra gì?
+    for i in range(0):
+        print("X")
+  A. X
+  B. Không in gì
+  C. Error
+  D. X mãi
+
+Câu 19. Đoạn code sau lặp bao nhiêu lần?
+    for i in range(-1):
+        print("X")
+  A. Lỗi
+  B. 0 lần
+  C. Mãi mãi
+  D. 1 lần
+
+Câu 20. Sau đoạn code, kq bằng bao nhiêu?
+    kq = 1
+    for i in range(1, 6):
+        kq *= i
+  A. 15
+  B. 30
+  C. 120
+  D. 720
+
+Câu 21. range(5) có bao gồm 5 không?
+  A. Có
+  B. Không
+  C. Chỉ Python 2
+  D. Tùy
+
+Câu 22. Bước nhảy âm trong range có hợp lệ không?
+  A. Không
+  B. Có (đếm ngược)
+  C. Chỉ với step = -1
+  D. Lỗi
+
+Câu 23. Đoạn code sau lặp mấy lần?
+    for i in range(3, 3):
+        print(i)
+  A. 0
+  B. 1
+  C. 3
+  D. Error
+
+Câu 24. break có thoát toàn bộ chương trình không?
+  A. Có
+  B. Không, chỉ thoát vòng lặp hiện tại
+  C. Thoát hàm
+  D. Thoát file
+
+Câu 25. 
+
+Câu 26. range(1, 10, 3) tạo ra?
+  A. 1, 2, 3
+  B. 1, 4, 7
+  C. 1, 3, 5, 7, 9
+  D. 3, 6, 9
+
+Câu 27. Đoạn code sau in ra gì?
+    for i in range(1, 6):
+        print(i * i, end=" ")
+  A. 1 2 3 4 5
+  B. 1 4 9 16 25
+  C. 2 4 6 8 10
+  D. 1 4 9 16
+
+Câu 28. Vòng for có thể dùng kèm từ khóa nào?
+  A. for-else (else chạy khi không có break)
+  B. for-finally
+  C. for-then
+  D. Không có
+
+Câu 29. Khi nào else trong for chạy?
+  A. Luôn chạy
+  B. Khi vòng lặp kết thúc bình thường (không break)
+  C. Khi có break
+  D. Khi gặp lỗi
+
+Câu 30. 
+
+Câu 31. 
+
+Câu 32. 
+
+Câu 33. 
+
+Câu 34. 
+
+Câu 35. Đoạn code sau lặp bao nhiêu lần?
+    for i in range(10, 1):
+        print(i)
+  A. 10..1
+  B. Không lặp (rỗng)
+  C. Error
+  D. 1..10
+
+Câu 36. 
+
+Câu 37. 
+
+Câu 38. 
+
+Câu 39. Đoạn code sau in ra gì?
+    for _ in range(3):
+        print("hi")
+  A. 1 lần "hi"
+  B. 3 lần "hi"
+  C. Error
+  D. "_"
+
+Câu 40. _ trong for thường dùng khi nào?
+  A. Bắt buộc đặt tên _
+  B. Khi không cần dùng biến đếm
+  C. Khi biến là số
+  D. Khi cần lưu giá trị
+
+Câu 41. Đoạn code sau in ra gì?
+    for i in range(1, 11):
+        if i % 2 == 0:
+            print(i, end=" ")
+  A. Số lẻ 1-10
+  B. Số chẵn 2 4 6 8 10
+  C. 1-10
+  D. Error
+
+Câu 42. 
+
+Câu 43. Đoạn code sau gọi print() bao nhiêu lần?
+    for i in range(5):
+        print(i)
+  A. 4
+  B. 5
+  C. 6
+  D. 0
+
+Câu 44. Đoạn code sau lặp bao nhiêu lần (tổng cộng)?
+    for i in range(3):
+        for j in range(4):
+            pass
+  A. 7
+  B. 12
+  C. 9
+  D. 16
+
+Câu 45. 
+
+Câu 46. Sau đoạn code, s bằng bao nhiêu?
+    s = 0
+    for i in range(2, 101, 2):
+        s += i
+  A. 2500
+  B. 2550
+  C. 5050
+  D. 1250
+
+Câu 47. Tổng 1 + 2 + ... + 100 bằng bao nhiêu?
+  A. 5000
+  B. 5050
+  C. 10000
+  D. 100
+
+Câu 48. 
+
+Câu 49. 
+
+Câu 50. 
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-B   4-B   5-B   6-C   7-A   8-B   9-B   10-B
+11-C  12-C  13-B  14-B  15-B  16-B  17-B  18-B  19-B  20-C
+21-B  22-B  23-A  24-B  25-A  26-B  27-B  28-A  29-B  30-A
+31-A  32-A  33-C  34-A  35-B  36-A  37-B  38-A  39-B  40-B
+41-B  42-B  43-B  44-B  45-A  46-B  47-B  48-A  49-B  50-A
+══════════════════════════════════════════════
