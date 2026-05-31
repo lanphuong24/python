@@ -273,11 +273,7 @@ Câu 31. Đoạn code sau in ra gì?
   C. 5
   D. Error
 
-Câu 32. Điều kiện if có thể là kết quả hàm không?
-  A. Không
-  B. Có
-  C. Chỉ với len()
-  D. Chỉ với int
+Câu 32.
 
 Câu 33. Đoạn code sau thực thi khối if không?
     if len("abc") > 0:

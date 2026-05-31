@@ -7,3 +7,10 @@
 # * * * *
 # * * * *
 # * * * *
+
+n = int(input("nhap so nguyen n: "))
+
+for d in range(n):
+    for c in range(n):
+        print("*", end=" ")
+    print()

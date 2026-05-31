@@ -35,7 +35,7 @@ Câu 5. Đoạn code sau in ra gì?
   C. 0 1 2 3
   D. Error
 
-Câu 6. range() nhận tối đa bao nhiêu tham số?
+Câu 6. range nhận tối đa bao nhiêu tham số?
   A. 1
   B. 2
   C. 3
