@@ -1,0 +1,442 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                   PHẦN 11: VÒNG LẶP WHILE                        ║
+║                     50 CÂU TRẮC NGHIỆM                           ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Cú pháp while ĐÚNG?
+  A. while (i < 5) { }
+  B. while i < 5:
+  C. while i < 5 do:
+  D. loop i < 5:
+
+Câu 2. Vòng lặp while hoạt động như thế nào?
+  A. Lặp đúng 1 lần rồi mới kiểm tra điều kiện
+  B. Kiểm tra điều kiện trước, lặp khi điều kiện True
+  C. Lặp theo số lần cố định
+  D. Luôn lặp ít nhất 1 lần
+
+Câu 3. Điều kiện while là False từ đầu, vòng lặp chạy bao nhiêu lần?
+  A. 0 lần
+  B. 1 lần
+  C. Mãi mãi
+  D. Lỗi
+
+Câu 4. Khối lệnh bên trong while được nhận biết bằng?
+  A. Dấu {}
+  B. Dấu ()
+  C. Thụt lề
+  D. Từ khóa "do"
+
+Câu 5. while khác for ở điểm nào?
+  A. while lặp theo số lần cố định, for lặp theo điều kiện
+  B. while lặp khi điều kiện còn True, for thường lặp theo dãy/số lần định trước
+  C. while nhanh hơn for
+  D. for không có điều kiện dừng
+
+Câu 6. Đoạn code sau in ra gì?
+    i = 0
+    while i < 5:
+        print(i, end=" ")
+        i += 1
+  A. 1 2 3 4 5
+  B. 0 1 2 3 4
+  C. 0 1 2 3 4 5
+  D. Error
+
+Câu 7. Đoạn code sau in ra gì?
+    i = 1
+    while i <= 3:
+        print(i, end=" ")
+        i += 1
+  A. 1 2 3
+  B. 0 1 2 3
+  C. 1 2 3 4
+  D. Error
+
+Câu 8. Vòng lặp sau chạy bao nhiêu lần?
+    i = 0
+    while i < 10:
+        i += 1
+  A. 9
+  B. 10
+  C. 11
+  D. 0
+
+Câu 9. Sau đoạn code, i bằng bao nhiêu?
+    i = 10
+    while i > 0:
+        i -= 3
+  A. -2
+  B. 0
+  C. 1
+  D. -3
+
+Câu 10. Sau đoạn code, n bằng bao nhiêu?
+    n = 0
+    while n < 5:
+        n += 2
+  A. 4
+  B. 5
+  C. 6
+  D. 8
+
+Câu 11. Vòng lặp sau chạy bao nhiêu lần?
+    n = 1
+    while n < 100:
+        n *= 2
+  A. 6
+  B. 7
+  C. 8
+  D. 10
+
+Câu 12. Vòng lặp nào là vô hạn?
+  A. while True: pass
+  B. while False: pass
+  C. while 0: pass
+  D. i=0; while i<5: i+=1
+
+Câu 13. Thiếu lệnh cập nhật biến trong while gây ra điều gì?
+  A. Lỗi ngay lập tức
+  B. Vòng lặp vô hạn
+  C. Chỉ lặp 1 lần
+  D. Không in gì
+
+Câu 14. Đoạn code sau in "X" bao nhiêu lần?
+    i = 0
+    while i < 3:
+        print("X")
+        i += 1
+  A. 2
+  B. 3
+  C. 4
+  D. 0
+
+Câu 15. Sau đoạn code, tong bằng bao nhiêu?
+    tong = 0
+    i = 1
+    while i <= 5:
+        tong += i
+        i += 1
+  A. 10
+  B. 15
+  C. 21
+  D. 20
+
+Câu 16. break trong while dùng để?
+  A. Thoát khỏi vòng lặp ngay lập tức
+  B. Bỏ qua lần lặp hiện tại
+  C. Thoát khỏi chương trình
+  D. Lặp lại lần lặp hiện tại
+
+Câu 17. continue trong while dùng để?
+  A. Thoát khỏi vòng lặp
+  B. Bỏ qua phần còn lại của lần lặp hiện tại, quay lại kiểm tra điều kiện
+  C. Dừng chương trình
+  D. Tiếp tục sang vòng lặp tiếp theo bên ngoài
+
+Câu 18. Đoạn code sau in ra gì?
+    i = 0
+    while i < 5:
+        i += 1
+        if i == 3:
+            break
+        print(i, end=" ")
+  A. 1 2
+  B. 1 2 3
+  C. 0 1 2
+  D. 1 2 4 5
+
+Câu 19. Đoạn code sau in ra gì?
+    i = 0
+    while i < 5:
+        i += 1
+        if i == 3:
+            continue
+        print(i, end=" ")
+  A. 1 2 3 4 5
+  B. 1 2 4 5
+  C. 1 2
+  D. 3
+
+Câu 20. Khác biệt giữa break và continue?
+  A. break thoát vòng lặp; continue bỏ qua phần còn lại của lần lặp hiện tại
+  B. Hoàn toàn giống nhau
+  C. continue thoát vòng lặp; break bỏ qua lần lặp
+  D. Cả 2 đều dừng chương trình
+
+Câu 21. while True: chạy mãi trừ khi có điều gì?
+  A. Điều kiện tự trở thành False
+  B. Có lệnh break bên trong
+  C. Gặp lệnh continue
+  D. Biến thay đổi giá trị
+
+Câu 22. Có thể lồng while bên trong while không?
+  A. Không
+  B. Có (nested loop)
+  C. Chỉ 1 lần lồng
+  D. Chỉ khi dùng with for
+
+Câu 23. Khi nào nên dùng while thay cho for?
+  A. Khi biết trước số lần lặp
+  B. Khi không biết trước số lần lặp, chỉ biết điều kiện dừng
+  C. Khi muốn lặp theo dãy số
+  D. Khi dùng range()
+
+Câu 24. Đoạn code sau in ra gì?
+    i = 5
+    while i > 0:
+        print(i, end=" ")
+        i -= 1
+  A. 5 4 3 2 1
+  B. 4 3 2 1 0
+  C. 5 4 3 2 1 0
+  D. 1 2 3 4 5
+
+Câu 25. Vòng while có thể thay thế hoàn toàn vòng for không?
+  A. Không bao giờ
+  B. Có thể, tuy nhiên for thường ngắn gọn hơn với dãy số
+  C. Chỉ thay thế được for range(5)
+  D. Chỉ trong Python 3
+
+Câu 26. Đoạn while nào tương đương với: for i in range(3): print(i)?
+  A. i=0; while i<3: print(i); i+=1
+  B. i=1; while i<=3: print(i); i+=1
+  C. i=0; while i<=3: print(i); i+=1
+  D. i=0; while i<3: i+=1; print(i)
+
+Câu 27. Sau đoạn code, s bằng bao nhiêu?
+    n = 5
+    s = 0
+    while n > 0:
+        s += n
+        n -= 1
+  A. 10
+  B. 15
+  C. 20
+  D. 5
+
+Câu 28. Sau đoạn code, x bằng bao nhiêu?
+    x = 2
+    while x < 200:
+        x *= x
+  A. 16
+  B. 64
+  C. 128
+  D. 256
+
+Câu 29. Vòng lặp sau chạy bao nhiêu lần?
+    i = 1
+    while i * i < 50:
+        i += 1
+  A. 6
+  B. 8
+  C. 7
+  D. 9
+
+Câu 30. Sau đoạn code, kq bằng bao nhiêu?
+    kq = 1
+    i = 1
+    while i <= 5:
+        kq *= i
+        i += 1
+  A. 15
+  B. 30
+  C. 120
+  D. 60
+
+Câu 31. Đoạn code sau in ra gì?
+    i = 0
+    while i < 3:
+        print(i * 2, end=" ")
+        i += 1
+  A. 0 2 4
+  B. 2 4 6
+  C. 0 1 2
+  D. 1 2 3
+
+Câu 32. Sau đoạn code, dem bằng bao nhiêu?
+    dem = 0
+    n = 1
+    while n <= 100:
+        if n % 3 == 0:
+            dem += 1
+        n += 1
+  A. 30
+  B. 34
+  C. 33
+  D. 32
+
+Câu 33.
+
+Câu 34. Đoạn code sau in ra gì?
+    i = 1
+    while i <= 3:
+        print(i)
+        i += 1
+    else:
+        print("Done")
+  A. 1, 2, 3 (mỗi số 1 dòng) rồi "Done"
+  B. Chỉ "Done"
+  C. 1, 2, 3 (không có "Done")
+  D. Error
+
+Câu 35. Đoạn code sau in ra gì?
+    i = 1
+    while i <= 5:
+        if i == 3:
+            break
+        print(i)
+        i += 1
+    else:
+        print("Done")
+  A. 1, 2 rồi "Done"
+  B. 1, 2 (không có "Done")
+  C. 1, 2, 3 rồi "Done"
+  D. Chỉ "Done"
+
+Câu 36. Sau đoạn code, a bằng bao nhiêu?
+    a = 0
+    while a < 10:
+        a += 3
+  A. 9
+  B. 10
+  C. 12
+  D. 3
+
+Câu 37. Vòng lặp sau chạy bao nhiêu lần?
+    x = 16
+    while x % 2 == 0:
+        x //= 2
+  A. 3
+  B. 5
+  C. 4
+  D. 16
+
+Câu 38. Đoạn code sau in ra gì?
+    i = 0
+    while i < 5:
+        if i % 2 == 0:
+            print(i, end=" ")
+        i += 1
+  A. 1 3
+  B. 0 2 4
+  C. 0 1 2 3 4
+  D. 2 4
+
+Câu 39. Sau đoạn code, s bằng bao nhiêu?
+    s = 0
+    i = 10
+    while i > 0:
+        s += i
+        i -= 2
+  A. 25
+  B. 30
+  C. 20
+  D. 50
+
+Câu 40. Điều kiện while có thể dùng and/or không?
+  A. Không, chỉ dùng 1 điều kiện đơn
+  B. Có
+  C. Chỉ and
+  D. Chỉ or
+
+Câu 41. Sau đoạn code, x bằng bao nhiêu?
+    x = 1
+    y = 10
+    while x < y:
+        x += 1
+        y -= 1
+  A. 5
+  B. 6
+  C. 7
+  D. 4
+
+Câu 42. Sau đoạn code, n bằng bao nhiêu?
+    n = 2
+    while n < 100:
+        n *= 2
+  A. 64
+  B. 256
+  C. 128
+  D. 32
+
+Câu 43. Sau đoạn code, dem bằng bao nhiêu?
+    dem = 0
+    n = 1
+    while n <= 20:
+        if n % 2 != 0 and n % 3 == 0:
+            dem += 1
+        n += 1
+  A. 4
+  B. 3
+  C. 6
+  D. 2
+
+Câu 44. Đoạn code sau in ra gì?
+    while False:
+        print("X")
+  A. X
+  B. Không in gì
+  C. Error
+  D. X mãi mãi
+
+Câu 45. while 1: tương đương với?
+  A. while True:
+  B. while False:
+  C. while 0:
+  D. Lỗi
+
+Câu 46. Đoạn code sau in ra gì?
+    i = 5
+    while i:
+        print(i, end=" ")
+        i -= 1
+  A. 5 4 3 2 1 0
+  B. 5 4 3 2 1
+  C. 4 3 2 1 0
+  D. Error
+
+Câu 47. Lệnh nào dùng để thoát ngay khỏi vòng lặp while?
+  A. continue
+  B. break
+  C. pass
+  D. stop
+
+Câu 48. pass bên trong while dùng để làm gì?
+  A. Thoát vòng lặp
+  B. Bỏ qua lần lặp hiện tại
+  C. Giữ chỗ, không thực hiện gì
+  D. Dừng chương trình
+
+Câu 49. Đoạn code sau in ra gì?
+    i = 0
+    while i < 3:
+        i += 1
+        if i == 2:
+            continue
+        print(i, end=" ")
+  A. 1 3
+  B. 1 2 3
+  C. 2
+  D. 1 2
+
+Câu 50. Sau đoạn code, x bằng bao nhiêu?
+    x = 10
+    while x > 0:
+        if x % 3 == 0:
+            break
+        x -= 1
+  A. 0
+  B. 9
+  C. 3
+  D. 6
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-B   3-A   4-C   5-B   6-B   7-A   8-B   9-A   10-C
+11-B  12-A  13-B  14-B  15-B  16-A  17-B  18-A  19-B  20-A
+21-B  22-B  23-B  24-A  25-B  26-A  27-B  28-D  29-C  30-C
+31-A  32-C  33-B  34-A  35-B  36-C  37-C  38-B  39-B  40-B
+41-B  42-C  43-B  44-B  45-A  46-B  47-B  48-C  49-A  50-B
+══════════════════════════════════════════════
