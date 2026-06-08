@@ -6,5 +6,14 @@
 #   - Nếu tiền ít hơn $100, thông báo "Không đủ tiền"
 # Nếu tuổi nhỏ hơn 18, thông báo "Không đủ tuổi"
 
-
+tuoi = int(input("nhap tuoi: "))
+#tien = int(input("nhap so tien: "))
+if tuoi >= 18:
+    tien = int(input("nhap so tien: "))
+    if tien >= 100:
+      print("duoc vao rap")
+    else:
+       print("khong du tien")
+else:
+   print("khong du tuoi")
    

@@ -9,3 +9,17 @@ import random
 
 soBiMat = random.randint(1, 10)
 
+i = 1
+thang = False
+while not thang and i <= 3:
+    n = int(input("nhap so tu 1-10: "))
+    if n == soBiMat:
+        print("chien thang")
+        thang = True
+        break
+    else:
+        print("doan sai")
+    i += 1
+
+if not thang:
+    print("ban doan sai 3 lan. dap an la:", soBiMat)

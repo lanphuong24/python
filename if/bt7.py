@@ -9,3 +9,18 @@
 #   - Nếu tổng điểm dưới 18, thông báo "Bạn đã đậu TDU"
 # Nếu tổng điểm dưới 15, thông báo "Rớt tốt nghiệp"
 
+to = float(input("nhap diem toan: "))
+ta = float(input("nhap diem tieng anh: "))
+th = float(input("nhap diem tin hoc: "))
+tt = to + ta + th
+if tt >= 15:
+    if tt >= 24:
+        print("ban da dau truong PTIT")
+    elif tt >= 21:
+        print("ban da dau truong HUB")
+    elif tt >= 18:
+        print("ban dau truong FTU")
+    else:
+        print("ban da dau TDU")
+else:
+    print("rot tot nghiep")
