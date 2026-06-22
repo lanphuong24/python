@@ -1,12 +1,12 @@
-## Viết chương trình nhập n số tự nhiên, sau đó
-## tính tổng, trung bình của chúng
+## Thao tác cơ bản trên danh sách
 
-# Bạn có bao nhiêu số tự nhiên?
-# Nhập số thứ 1: 3
-# Nhập số thứ 2: 7
-# Nhập số thứ 3: 5
-# Tổng số tự nhiên đã nhập: 15
-# Trung bình: 5
+a = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
+
+# Thêm số 22 vào đầu danh sách trên
+# Code phải đảm bảo vẫn đúng khi sửa đổi danh sách a
+
+print("Danh sách cũ:", a)
 
 pass
 
+print("Danh sách mới:", a)

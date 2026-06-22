@@ -1,9 +1,13 @@
-## Đảo ngược danh dách
+## Thao tác cơ bản trên danh sách
 
-# Cho trước 1 danh sách, sau đó đảo vị trí các phần tử trong danh sách đó
-# vd: list1 = [500, 9, 8, 1]
-# => list2 = [1, 8, 9, 500]
+a = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
 
-list1 = [500, 9, 8, 1]
-list2 = []
+# Xoá số 10 khỏi danh sách trên
+# Code phải đảm bảo vẫn đúng khi sửa đổi danh sách a
 
+
+print("Danh sách cũ:", a)
+
+pass
+
+print("Danh sách mới:", a)

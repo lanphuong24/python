@@ -1,9 +1,14 @@
-## Xoá phần từ trùng lắp trong danh sách
+## Thao tác cơ bản trên danh sách
 
-list = [8, 5, 10, 4, 8, 32, 5, 3, 4, 4, 200, 4]
+a = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
 
-# Kết quả mong đợi:
-# [8, 5, 10, 4, 32, 3, 4, 200]
+# In phần tử thứ 1, thứ 2, và cuối cùng trong danh sách trên
+# Code phải đảm bảo vẫn đúng khi sửa đổi danh sách a
 
-pass
+firstItem = 0
+secondItem = 0
+lastItem = 0
 
+print("Phần tử thứ 1: ", firstItem)
+print("Phần tử thứ 2: ", secondItem)
+print("Phần tử cuối: ", lastItem)
