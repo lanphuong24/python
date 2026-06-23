@@ -1,19 +1,9 @@
-## In tất cả phần tử trong danh sách
+## Thao tác cơ bản trên danh sách
 
-list = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
+a = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
 
-# Viết code in mỗi phần tử trên một dòng riêng
-# vd =>
-# 8
-# 5
-# 10
-# ...
+# Sửa code bên dưới để in ra chiều dài của danh sách a
+# Code phải đảm bảo vẫn đúng khi sửa đổi danh sách a
 
-pass
-
-# Viết code in tất cả phần tử trên cùng một dòng cách nhau bởi
-# dấu khoảng trắng
-# vd =>
-# 8 5 10 4 8...
-
-pass
+length = 0
+print("Chiều dài danh sách: ", length)

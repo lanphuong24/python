@@ -2,13 +2,11 @@
 
 a = [8, 5, 10, 4, 8, 4]
 
-# Tính tổng danh sách trên
+# Tính tổng các số chẵn trong danh sách trên
 # Code phải đảm bảo vẫn đúng khi sửa đổi danh sách a
 
 total = 0
 for e in a:
     pass
 
-print("Tổng cộng:", total)
-
-# Trong python có hỗ trợ sẵng hàm tính tổng không?
+print("Tổng cộng các số chẵn:", total)
