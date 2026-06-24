@@ -1,0 +1,238 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                     PHẦN 12: DANH SÁCH (LIST)                    ║
+║                       33 CÂU TRẮC NGHIỆM                         ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Cách tạo danh sách rỗng trong Python?
+  A. a = {}
+  B. a = []
+  C. a = ()
+  D. a = <>
+
+Câu 2. Kết quả của len([1, 2, 3, 4, 5])?
+  A. 4
+  B. 6
+  C. 5
+  D. 0
+
+Câu 3. a = [8, 5, 10, 4, 3]. a[0] bằng?
+  A. 5
+  B. 8
+  C. 10
+  D. 3
+
+Câu 4. a = [8, 5, 10, 4, 3]. a[-1] bằng?
+  A. 8
+  B. 4
+  C. 3
+  D. 10
+
+Câu 5. a = [1, 2, 3]. Sau a.insert(1, 99), a bằng?
+  A. [99, 1, 2, 3]
+  B. [1, 99, 2, 3]
+  C. [1, 2, 99, 3]
+  D. [1, 2, 3, 99]
+
+Câu 6. a = [1, 2, 3, 2]. Sau a.remove(2), a bằng?
+  A. [1, 3, 2]
+  B. [1, 3]
+  C. [1, 2, 3]
+  D. [2, 3, 2]
+
+Câu 7. a = [1, 2, 3]. a.pop() trả về giá trị nào?
+  A. 1
+  B. 2
+  C. 3
+  D. None
+
+Câu 8. Sự khác biệt giữa sort() và sorted()?
+  A. sort() tạo list mới, sorted() sửa list gốc
+  B. sort() sửa list gốc (in-place), sorted() trả về list mới
+  C. Giống nhau
+  D. sort() nhanh hơn sorted()
+
+Câu 9. a = [3, 1, 4, 1, 5]. Sau a.reverse(), a bằng?
+  A. [1, 1, 3, 4, 5]
+  B. [5, 1, 4, 1, 3]
+  C. [5, 4, 3, 1, 1]
+  D. [3, 1, 4, 1, 5]
+
+Câu 10. Đoạn code sau in ra gì?
+    a = [1, 2, 3]
+    for e in a:
+        print(e, end=" ")
+  A. 1 2 3
+  B. [1, 2, 3]
+  C. 0 1 2
+  D. Error
+
+Câu 11. Đoạn code sau in ra gì?
+    a = [1, 2, 3, 4, 5]
+    total = 0
+    for e in a:
+        total += e
+    print(total)
+  A. 10
+  B. 15
+  C. 14
+  D. 5
+
+Câu 12. a = [3, 1, 4, 1, 5, 9]. min(a) bằng?
+  A. 3
+  B. 9
+  C. 4
+  D. 1
+
+Câu 13. a = [3, 1, 4, 1, 5]. a.count(1) bằng?
+  A. 1
+  B. 2
+  C. 3
+  D. 0
+
+Câu 14. a = [3, 1, 4, 1, 5]. a.index(4) bằng?
+  A. 1
+  B. 2
+  C. 3
+  D. 4
+
+Câu 15. a = [1, 2, 3]. Sau a.clear(), a bằng?
+  A. None
+  B. [0, 0, 0]
+  C. []
+  D. Error
+
+Câu 16. a = [3, 1, 2]. sorted(a) trả về gì và a có thay đổi không?
+  A. [1, 2, 3], a thay đổi thành [1, 2, 3]
+  B. [1, 2, 3], a vẫn là [3, 1, 2]
+  C. None, a thay đổi thành [1, 2, 3]
+  D. [3, 1, 2], a không thay đổi
+
+Câu 17. Đoạn code sau in ra gì?
+    a = [8, 5, 10, 4, 3]
+    max_val = a[0]
+    for e in a:
+        if e > max_val:
+            max_val = e
+    print(max_val)
+  A. 8
+  B. 3
+  C. 10
+  D. 5
+
+Câu 18. Đoạn code sau in ra gì?
+    a = [1, 2, 3, 4, 5, 6]
+    total = 0
+    for e in a:
+        if e % 2 == 0:
+            total += e
+    print(total)
+  A. 9
+  B. 12
+  C. 21
+  D. 6
+
+Câu 19. [1, 2] + [3, 4] bằng?
+  A. [1, 2, 3, 4]
+  B. [4, 6]
+  C. [[1, 2], [3, 4]]
+  D. Error
+
+Câu 20. [0] * 3 bằng?
+  A. [0, 0, 0]
+  B. [3]
+  C. 0
+  D. Error
+
+Câu 21. a = [1, 2, 3]. 5 in a bằng?
+  A. True
+  B. False
+  C. 0
+  D. Error
+
+Câu 22. a = [1, 2, 3, 4, 5]. a[1:3] bằng?
+  A. [1, 2, 3]
+  B. [2, 3]
+  C. [2, 3, 4]
+  D. [1, 2]
+
+Câu 23. a = [10, 20, 30, 40, 50]. a[::2] bằng?
+  A. [10, 30, 50]
+  B. [20, 40]
+  C. [10, 20, 30]
+  D. [50, 40, 30, 20, 10]
+
+Câu 24. Đoạn code sau in ra gì?
+    a = [1, -2, 3, -4, 5]
+    b = []
+    for e in a:
+        if e > 0:
+            b.append(e)
+    print(b)
+  A. [1, 3, 5]
+  B. [-2, -4]
+  C. [1, 2, 3, 4, 5]
+  D. []
+
+Câu 25. Đoạn code sau in ra gì?
+    a = [1, 2, 3, 2, 1]
+    dem = 0
+    for e in a:
+        if e == 2:
+            dem += 1
+    print(dem)
+  A. 1
+  B. 3
+  C. 2
+  D. 5
+
+Câu 26. a = [3, 1, 4, 1, 5]. Sau a.sort(), a bằng?
+  A. [3, 1, 4, 1, 5]
+  B. [5, 4, 3, 1, 1]
+  C. [1, 1, 3, 4, 5]
+  D. Error
+
+Câu 27. a = [1, 2, 3, 4, 5]. a[-2:] bằng?
+  A. [4, 5]
+  B. [3, 4]
+  C. [1, 2]
+  D. [3, 4, 5]
+
+Câu 28. a = [1, 2, 3, 4, 5]. a[::-1] bằng?
+  A. [1, 2, 3, 4, 5]
+  B. [5, 4, 3, 2, 1]
+  C. [5]
+  D. Error
+
+Câu 31. a = [1, 2, 3]. Sau a.pop(0), a bằng?
+  A. [2, 3]
+  B. [1, 2]
+  C. [1, 3]
+  D. [1, 2, 3]
+
+Câu 32. Đoạn code sau in ra gì?
+    a = [3, 1, 4, 1, 5]
+    a.sort(reverse=True)
+    print(a)
+  A. [1, 1, 3, 4, 5]
+  B. [5, 4, 3, 1, 1]
+  C. [3, 1, 4, 1, 5]
+  D. Error
+
+Câu 33. Đoạn code sau in ra gì?
+    a = [1, 2, 3]
+    b = a
+    b.append(4)
+    print(a)
+  A. [1, 2, 3]
+  B. [1, 2, 3, 4]
+  C. [4]
+  D. Error
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-B   4-C   5-B   6-A   7-C   8-B   9-B   10-A
+11-B  12-D  13-B  14-B  15-C  16-B  17-C  18-B  19-A  20-A
+21-B  22-B  23-A  24-A  25-C  26-C  27-A  28-B  29-B  30-C
+31-A  32-B  33-B
+══════════════════════════════════════════════
