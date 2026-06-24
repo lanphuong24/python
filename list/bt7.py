@@ -7,6 +7,7 @@ a = [8, 5, 10, 4, 8, 4]
 
 total = 0
 for e in a:
-    pass
+    if e % 2 == 0:
+        total += e
 
 print("Tổng cộng các số chẵn:", total)

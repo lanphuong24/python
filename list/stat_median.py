@@ -10,7 +10,10 @@ a.sort()
 print("Dữ liệu đã nhập:", a)
 
 median = 0
-
-pass
+cdai = len(a)
+if cdai % 2 == 0:
+    median = (a[cdai//2-1] + a[(cdai//2-1)+1]) / 2
+else:
+    median = a[cdai//2] 
 
 print("Trung vị (Me):", median)

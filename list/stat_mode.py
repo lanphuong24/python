@@ -8,8 +8,17 @@ a = list(map(int, input().split()))
 
 print("Dữ liệu đã nhập:", a)
 
-mode = 0
-
-pass
-
-print("Mốt (mode):", mode)
+mode = [a[0]]
+soLonNhat = 0
+for i in a:
+    times = a.count(i)
+    if soLonNhat < times:
+        soLonNhat = times
+        mode = [i]
+    elif soLonNhat == times:
+        if i not in mode:
+            mode.append(i)
+if len(mode) == 1 or len(mode) == 2:
+    print("Mốt (mode):", mode)
+else:
+    print("Khong co mot")

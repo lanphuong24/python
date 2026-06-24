@@ -10,6 +10,10 @@ print("Dữ liệu đã nhập:", a)
 
 phuongSai = 0
 
-pass
+tb = sum(a) / len(a)
+total = 0
+for i in a:
+    total += (i - tb) ** 2
+phuongSai = total / len(a)
 
 print("Phương sai (Variance):", phuongSai)

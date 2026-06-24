@@ -18,8 +18,14 @@ print("Dữ liệu số cuốn sách:", books)
 print("Dữ liệu số học sinh:", students)
 
 
-average = 0
 
-pass
+total = 0
+for e in students:
+    total += e
+nhan = 0
+for i in range(len(students)):
+    nhan += students[i] * books[i]
+average = nhan / total
+
 
 print("Điểm trung bình (average):", average)

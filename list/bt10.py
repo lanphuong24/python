@@ -8,6 +8,11 @@ a = list(map(float, input().split()))
 
 print("Danh sách nhập vào: ", a)
 
-pass
+soLonNhat = a[0]
+for e in a:
+    if e > soLonNhat:
+        soLonNhat = e
+
+print("so lon nhat", soLonNhat)
 
 # Trong python có hỗ trợ sẵng hàm tìm phần tử lớn nhất không?

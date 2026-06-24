@@ -8,6 +8,7 @@ a = [8, 5, -10, 4, 8, -4]
 print("Danh sách cũ:", a)
 
 for i in range(len(a)):
-    pass
+    if a[i] < 0:
+        a.remove(a[i])
 
 print("Danh sách mới:", a)

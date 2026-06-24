@@ -9,7 +9,8 @@ e = 3
 i = 0
 times = 0;
 while i < len(a):
-    pass
+    if a[i] == e:
+        times += 1
     i += 1
 
 print("Số", e, "xuất hiện", times, "lần trong", a)

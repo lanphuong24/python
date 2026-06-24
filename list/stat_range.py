@@ -8,8 +8,8 @@ a = list(map(int, input().split()))
 
 print("Dữ liệu đã nhập:", a)
 
-bienThien = 0
+bienThien = max(a) - min(a)
 
-pass
+
 
 print("Khoảng biến thiên (range):", bienThien)

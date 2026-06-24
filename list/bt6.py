@@ -7,7 +7,7 @@ a = [8, 5, 10, 4, 8, 4]
 
 total = 0
 for e in a:
-    pass
+    total += e
 
 print("Tổng cộng:", total)
 

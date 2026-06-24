@@ -8,8 +8,10 @@ a = list(map(float, input().split()))
 
 print("Danh sách điểm nhập vào:", a)
 
-average = 0
+total = 0
+for e in a:
+    total += e
+average = total / len(a)
 
-pass
 
 print("Điểm trung bình (average):", average)

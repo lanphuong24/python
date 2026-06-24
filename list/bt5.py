@@ -8,6 +8,6 @@ a = [8, 5, 10, 4, 8, 4, 3, 7, 100, 5, 30]
 
 print("Danh sách cũ:", a)
 
-pass
+a.remove(10)
 
 print("Danh sách mới:", a)
