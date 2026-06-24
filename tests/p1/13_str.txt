@@ -1,0 +1,306 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                     PHẦN 13: XÂU KÝ TỰ (STR)                    ║
+║                       50 CÂU TRẮC NGHIỆM                         ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Cách tạo xâu trong Python?
+  A. s = []
+  B. s = "hello"
+  C. s = ()
+  D. s = {}
+
+Câu 2. len("Python") bằng?
+  A. 5
+  B. 7
+  C. 6
+  D. 0
+
+Câu 3. s = "Python". s[0] bằng?
+  A. "P"
+  B. "y"
+  C. "t"
+  D. "n"
+
+Câu 4. s = "Python". s[-1] bằng?
+  A. "P"
+  B. "y"
+  C. "n"
+  D. "o"
+
+Câu 5. s = "Python". s[1:4] bằng?
+  A. "Pyt"
+  B. "yth"
+  C. "ytho"
+  D. "ython"
+
+Câu 6. s = "hello". s.upper() bằng?
+  A. "Hello"
+  B. "HELLO"
+  C. "hello"
+  D. "hELLO"
+
+Câu 7. s = "HELLO". s.lower() bằng?
+  A. "Hello"
+  B. "HELLO"
+  C. "hello"
+  D. "hELLO"
+
+Câu 8. s = "tin học python". s.title() bằng?
+  A. "TIN HỌC PYTHON"
+  B. "Tin học python"
+  C. "Tin Học Python"
+  D. "tin học python"
+
+Câu 9. s = "banana". s.count("a") bằng?
+  A. 1
+  B. 2
+  C. 3
+  D. 4
+
+Câu 10. s = "Python". s.find("t") bằng?
+  A. 1
+  B. 2
+  C. 3
+  D. -1
+
+Câu 11. s = "Python". s.find("x") bằng?
+  A. 0
+  B. -1
+  C. None
+  D. Error
+
+Câu 12. s = "Xin chào". s.replace("chào", "hello") bằng?
+  A. "Xin hello"
+  B. "hello Xin"
+  C. "Xin chào"
+  D. "hellohello"
+
+Câu 13. "Python".split() bằng?
+  A. ["P","y","t","h","o","n"]
+  B. ["Python"]
+  C. []
+  D. Error
+
+Câu 14. "1 2 3".split() bằng?
+  A. ["1","2","3"]
+  B. [1,2,3]
+  C. ("1","2","3")
+  D. Error
+
+Câu 15. ", ".join(["An", "Bình", "Châu"]) bằng?
+  A. "An Bình Châu"
+  B. "An, Bình, Châu"
+  C. ["An","Bình","Châu"]
+  D. "AnBìnhChâu"
+
+Câu 16. "  hello  ".strip() bằng?
+  A. "  hello  "
+  B. "hello  "
+  C. "  hello"
+  D. "hello"
+
+Câu 17. "Python" in "Tin học Python" bằng?
+  A. True
+  B. False
+  C. 0
+  D. Error
+
+Câu 18. "Java" not in "Tin học Python" bằng?
+  A. False
+  B. True
+  C. 0
+  D. Error
+
+Câu 19. "hello" + " " + "world" bằng?
+  A. "helloworld"
+  B. "hello world"
+  C. Error
+  D. ["hello","world"]
+
+Câu 20. "ab" * 3 bằng?
+  A. "ab3"
+  B. "ababab"
+  C. "aabbbb"
+  D. Error
+
+Câu 21. s = "Python". s[::-1] bằng?
+  A. "Python"
+  B. "nohtyP"
+  C. "P"
+  D. Error
+
+Câu 22. s = "Python". s[:3] bằng?
+  A. "Pyt"
+  B. "yth"
+  C. "hon"
+  D. "thon"
+
+Câu 23. s = "Python". s[-3:] bằng?
+  A. "Pyt"
+  B. "yth"
+  C. "hon"
+  D. "thon"
+
+Câu 24. ord("A") bằng?
+  A. 64
+  B. 65
+  C. 66
+  D. 97
+
+Câu 25. chr(97) bằng?
+  A. "A"
+  B. "a"
+  C. "1"
+  D. "z"
+
+Câu 26. int("123") bằng?
+  A. "123"
+  B. 123
+  C. 1.23
+  D. Error
+
+Câu 27. str(123) bằng?
+  A. 123
+  B. "123"
+  C. [1,2,3]
+  D. Error
+
+Câu 28. Đoạn code sau in ra gì?
+    s = "hello"
+    for c in s:
+        print(c, end=" ")
+  A. h e l l o
+  B. hello
+  C. [h,e,l,l,o]
+  D. Error
+
+Câu 29. Đoạn code sau in ra gì?
+    s = "banana"
+    dem = 0
+    for c in s:
+        if c == "a":
+            dem += 1
+    print(dem)
+  A. 2
+  B. 3
+  C. 4
+  D. 1
+
+Câu 30. Xâu trong Python có thể thay đổi từng ký tự không?
+  A. Có
+  B. Không, xâu là bất biến (immutable)
+  C. Chỉ khi dùng replace()
+  D. Chỉ trong Python 3
+
+Câu 31. s = "hello". Lệnh s[0] = "H" gây ra?
+  A. s = "Hello"
+  B. TypeError
+  C. s = "hello"
+  D. IndexError
+
+Câu 32. "abc" == "ABC" bằng?
+  A. True
+  B. False
+  C. None
+  D. Error
+
+Câu 33. "abc" < "abd" bằng?
+  A. True
+  B. False
+  C. None
+  D. Error
+
+Câu 35. Đoạn code sau in ra gì?
+    s = "hello world"
+    words = s.split()
+    print(len(words))
+  A. 11
+  B. 2
+  C. 1
+  D. Error
+
+Câu 37. s = "Python". s.startswith("Py") bằng?
+  A. True
+  B. False
+  C. "Py"
+  D. Error
+
+Câu 38. s = "Python". s.endswith("on") bằng?
+  A. True
+  B. False
+  C. "on"
+  D. Error
+
+Câu 39. "123".isdigit() bằng?
+  A. True
+  B. False
+  C. 3
+  D. Error
+
+Câu 40. "abc123".isdigit() bằng?
+  A. True
+  B. False
+  C. None
+  D. Error
+
+Câu 41. "abc".isalpha() bằng?
+  A. True
+  B. False
+  C. 3
+  D. Error
+
+Câu 44. Đoạn code sau in ra gì?
+    s = "Tin   học   Python"
+    result = " ".join(s.split())
+    print(result)
+  A. "Tin   học   Python"
+  B. "TinhọcPython"
+  C. "Tin học Python"
+  D. Error
+
+Câu 45. s = "hello". s[1::2] bằng?
+  A. "hlo"
+  B. "el"
+  C. "ell"
+  D. "eo"
+
+Câu 46. Đoạn code sau in ra gì?
+    s = "abcde"
+    result = ""
+    for c in s:
+        result = c + result
+    print(result)
+  A. "abcde"
+  B. "edcba"
+  C. "aeiou"
+  D. Error
+
+Câu 48. s = "banana". s.count("an") bằng?
+  A. 3
+  B. 2
+  C. 1
+  D. 0
+
+Câu 49. s = "Python". s[2:5] bằng?
+  A. "yth"
+  B. "tho"
+  C. "hon"
+  D. "ython"
+
+Câu 50. Đoạn code sau in ra gì?
+    s = "hello"
+    print(s[0].upper() + s[1:])
+  A. "HELLO"
+  B. "Hello"
+  C. "hELLO"
+  D. Error
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-B   2-C   3-A   4-C   5-B   6-B   7-C   8-C   9-C   10-B
+11-B  12-A  13-B  14-A  15-B  16-D  17-A  18-B  19-B  20-B
+21-B  22-A  23-C  24-B  25-B  26-B  27-B  28-A  29-B  30-B
+31-B  32-B  33-A  34-B  35-B  36-B  37-A  38-A  39-A  40-B
+41-A  42-B  43-B  44-C  45-B  46-B  47-C  48-B  49-B  50-B
+══════════════════════════════════════════════

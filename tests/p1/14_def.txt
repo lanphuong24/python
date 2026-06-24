@@ -1,0 +1,424 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                   PHẦN 14: ĐỊNH NGHĨA HÀM (DEF)                  ║
+║                       50 CÂU TRẮC NGHIỆM                         ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Câu 1. Từ khóa dùng để định nghĩa hàm trong Python?
+  A. function
+  B. define
+  C. def
+  D. func
+
+Câu 2. Cú pháp định nghĩa hàm ĐÚNG?
+  A. def myFunc() { }
+  B. def myFunc():
+  C. function myFunc():
+  D. define myFunc():
+
+Câu 3. Thân hàm được nhận biết bằng?
+  A. Dấu {}
+  B. Dấu ()
+  C. Thụt lề
+  D. Từ khóa "begin"
+
+Câu 4. Hàm không có lệnh return trả về giá trị gì?
+  A. 0
+  B. ""
+  C. None
+  D. False
+
+Câu 5. Đoạn code sau in ra gì?
+    def greet():
+        print("Xin chào")
+    greet()
+  A. greet()
+  B. Xin chào
+  C. None
+  D. Error
+
+Câu 6. Đoạn code sau in ra gì?
+    def add(a, b):
+        return a + b
+    print(add(3, 4))
+  A. a + b
+  B. 3 + 4
+  C. 7
+  D. Error
+
+Câu 7. Đoạn code sau in ra gì?
+    def add(a, b):
+        return a + b
+    x = add(3, 4)
+    print(x)
+  A. 3
+  B. 4
+  C. 7
+  D. None
+
+Câu 8. Đoạn code sau in ra gì?
+    def greet(name):
+        print(f"Xin chào, {name}!")
+    greet("An")
+  A. Xin chào, name!
+  B. Xin chào, An!
+  C. greet("An")
+  D. Error
+
+Câu 9. pass bên trong hàm dùng để làm gì?
+  A. Thoát khỏi hàm
+  B. Trả về None
+  C. Giữ chỗ, không thực hiện gì
+  D. Bỏ qua lần gọi hiện tại
+
+Câu 10. Đoạn code sau in ra gì?
+    def f():
+        pass
+    print(f())
+  A. pass
+  B. 0
+  C. None
+  D. Error
+
+Câu 11. Tham số (parameter) là gì?
+  A. Giá trị truyền vào khi gọi hàm
+  B. Biến được khai báo trong phần định nghĩa hàm
+  C. Kết quả trả về của hàm
+  D. Tên của hàm
+
+Câu 12. Đối số (argument) là gì?
+  A. Biến được khai báo trong phần định nghĩa hàm
+  B. Giá trị thực sự truyền vào khi gọi hàm
+  C. Kết quả trả về của hàm
+  D. Tên của hàm
+
+Câu 13. Đoạn code sau in ra gì?
+    def square(n):
+        return n * n
+    print(square(5))
+  A. n * n
+  B. 10
+  C. 25
+  D. Error
+
+Câu 14. Đoạn code sau in ra gì?
+    def is_even(n):
+        return n % 2 == 0
+    print(is_even(4))
+    print(is_even(7))
+  A. True / True
+  B. True / False
+  C. False / True
+  D. 0 / 1
+
+Câu 15. Đoạn code sau in ra gì?
+    def max2(a, b):
+        if a > b:
+            return a
+        return b
+    print(max2(3, 7))
+  A. 3
+  B. 7
+  C. 10
+  D. Error
+
+Câu 16. Hàm có thể gọi hàm khác bên trong không?
+  A. Không
+  B. Có
+  C. Chỉ gọi hàm built-in
+  D. Chỉ khi dùng import
+
+Câu 17. Đoạn code sau in ra gì?
+    def double(n):
+        return n * 2
+    def quad(n):
+        return double(double(n))
+    print(quad(3))
+  A. 6
+  B. 9
+  C. 12
+  D. Error
+
+Câu 18. Lợi ích của việc dùng hàm là gì?
+  A. Code chạy nhanh hơn
+  B. Tránh lặp code, dễ bảo trì và tái sử dụng
+  C. Bắt buộc phải dùng trong Python
+  D. Giúp code ngắn hơn bắt buộc
+
+Câu 19. Đoạn code sau in ra gì?
+    def f(x):
+        return x + 1
+    print(f(f(3)))
+  A. 4
+  B. 5
+  C. 6
+  D. Error
+
+Câu 22. Biến được khai báo bên trong hàm có thể dùng bên ngoài không?
+  A. Có
+  B. Không, biến cục bộ (local) chỉ tồn tại trong hàm
+  C. Có, nếu dùng return
+  D. Chỉ khi khai báo trước hàm
+
+Câu 23. Đoạn code sau in ra gì?
+    def f():
+        x = 10
+    f()
+    print(x)
+  A. 10
+  B. None
+  C. 0
+  D. NameError
+
+Câu 24. Đoạn code sau in ra gì?
+    x = 5
+    def f():
+        print(x)
+    f()
+  A. Error
+  B. None
+  C. 5
+  D. 0
+
+Câu 25. Đoạn code sau in ra gì?
+    def f(a, b):
+        return a - b
+    print(f(10, 3))
+  A. 13
+  B. 7
+  C. 3
+  D. Error
+
+Câu 26. Hàm được gọi trước khi định nghĩa gây ra lỗi gì?
+  A. SyntaxError
+  B. NameError
+  C. TypeError
+  D. IndexError
+
+Câu 27. Đoạn code sau in ra gì?
+    def count_char(s, c):
+        dem = 0
+        for ch in s:
+            if ch == c:
+                dem += 1
+        return dem
+    print(count_char("banana", "a"))
+  A. 2
+  B. 3
+  C. 4
+  D. Error
+
+Câu 28. Đoạn code sau in ra gì?
+    def sum_list(a):
+        total = 0
+        for e in a:
+            total += e
+        return total
+    print(sum_list([1, 2, 3, 4, 5]))
+  A. 10
+  B. 15
+  C. 5
+  D. Error
+
+Câu 29. Đoạn code sau in ra gì?
+    def is_positive(n):
+        return n > 0
+    print(is_positive(-3))
+  A. True
+  B. False
+  C. -3
+  D. Error
+
+Câu 30. Đoạn code sau in ra gì?
+    def f(n):
+        return n % 2 == 0
+    a = [1, 2, 3, 4, 5, 6]
+    dem = 0
+    for e in a:
+        if f(e):
+            dem += 1
+    print(dem)
+  A. 2
+  B. 3
+  C. 6
+  D. Error
+
+Câu 31. Đoạn code sau in ra gì?
+    def xep_loai(diem):
+        if diem >= 8:
+            return "Giỏi"
+        elif diem >= 6.5:
+            return "Khá"
+        elif diem >= 5:
+            return "Trung bình"
+        return "Yếu"
+    print(xep_loai(7.0))
+  A. Giỏi
+  B. Khá
+  C. Trung bình
+  D. Yếu
+
+Câu 32. Đoạn code sau in ra gì?
+    def xep_loai(diem):
+        if diem >= 8:
+            return "Giỏi"
+        elif diem >= 6.5:
+            return "Khá"
+        elif diem >= 5:
+            return "Trung bình"
+        return "Yếu"
+    print(xep_loai(4.0))
+  A. Giỏi
+  B. Khá
+  C. Trung bình
+  D. Yếu
+
+Câu 33. Đoạn code sau in ra gì?
+    def dem_uoc(n):
+        dem = 0
+        for i in range(1, n + 1):
+            if n % i == 0:
+                dem += 1
+        return dem
+    def is_nguyen_to(n):
+        return dem_uoc(n) == 2
+    print(is_nguyen_to(7))
+  A. False
+  B. True
+  C. 2
+  D. Error
+
+Câu 34. Đoạn code sau in ra gì?
+    def dem_uoc(n):
+        dem = 0
+        for i in range(1, n + 1):
+            if n % i == 0:
+                dem += 1
+        return dem
+    def is_nguyen_to(n):
+        return dem_uoc(n) == 2
+    print(is_nguyen_to(6))
+  A. False
+  B. True
+  C. 4
+  D. Error
+
+Câu 35. Đoạn code sau in ra gì?
+    def tinh_xep_loai(diem):
+        if diem >= 8:
+            return "Giỏi"
+        return "Khá"
+    def xep_loai_hs(ten, diem):
+        loai = tinh_xep_loai(diem)
+        print(f"{ten}: {loai}")
+    xep_loai_hs("An", 9)
+  A. An: Khá
+  B. An: Giỏi
+  C. 9: Giỏi
+  D. Error
+
+Câu 36. Đoạn code sau in ra gì?
+    def f(a, b, c):
+        return a + b + c
+    print(f(1, 2, 3))
+  A. 123
+  B. 6
+  C. 1
+  D. Error
+
+Câu 39. Đoạn code sau in ra gì?
+    def tong(a):
+        total = 0
+        for e in a:
+            total += e
+        return total
+    def trung_binh(a):
+        return tong(a) / len(a)
+    print(trung_binh([2, 4, 6]))
+  A. 3
+  B. 4.0
+  C. 12
+  D. Error
+
+Câu 40. Đoạn code sau in ra gì?
+    def f(n):
+        if n == 0:
+            return 0
+        return n + f(n - 1)
+    print(f(4))
+  A. 4
+  B. 10
+  C. 24
+  D. Error
+
+Câu 41. Đoạn code sau in ra gì?
+    def area(dai, rong):
+        return dai * rong
+    print(area(5, 3))
+    print(area(8, 4))
+  A. 15 / 32
+  B. 8 / 12
+  C. 5 / 8
+  D. Error
+
+Câu 42. Đoạn code sau in ra gì?
+    def print_table(n):
+        for i in range(1, 11):
+            print(f"{n} x {i} = {n * i}")
+    print_table(2)
+  A. In bảng cửu chương 2 từ 1 đến 10
+  B. In số 2 mười lần
+  C. In từ 1 đến 10
+  D. Error
+
+Câu 44. Đoạn code sau in ra gì?
+    def f(n):
+        return n ** 2
+    print(f(3) + f(4))
+  A. 7
+  B. 25
+  C. 49
+  D. Error
+
+Câu 47. Đoạn code sau in ra gì?
+    def f(a, b):
+        return a, b
+    x, y = f(3, 5)
+    print(x + y)
+  A. 35
+  B. 8
+  C. (3, 5)
+  D. Error
+
+Câu 48. Đoạn code sau in ra gì?
+    def f(lst):
+        lst.append(99)
+    a = [1, 2, 3]
+    f(a)
+    print(a)
+  A. [1, 2, 3]
+  B. [1, 2, 3, 99]
+  C. [99]
+  D. Error
+
+Câu 50. Đoạn code sau in ra gì?
+    def min2(a, b):
+        if a < b:
+            return a
+        return b
+    def min3(a, b, c):
+        return min2(min2(a, b), c)
+    print(min3(5, 2, 8))
+  A. 5
+  B. 8
+  C. 2
+  D. Error
+
+══════════════════════════════════════════════
+ĐÁP ÁN
+──────────────────────────────────────────────
+1-C   2-B   3-C   4-C   5-B   6-C   7-C   8-B   9-C   10-C
+11-B  12-B  13-C  14-B  15-B  16-B  17-C  18-B  19-B  20-B
+21-B  22-B  23-D  24-C  25-B  26-B  27-B  28-B  29-B  30-B
+31-B  32-D  33-B  34-A  35-B  36-B  37-B  38-B  39-B  40-B
+41-A  42-A  43-B  44-B  45-A  46-B  47-B  48-B  49-B  50-C
+══════════════════════════════════════════════
