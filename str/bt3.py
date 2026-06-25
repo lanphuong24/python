@@ -9,7 +9,8 @@ c = "a"
 i = 0
 times = 0
 while i < len(s):
-    pass
+    if s[i] == c:
+      times += 1
     i += 1
 
 print(f"Ký tự '{c}' xuất hiện {times} lần trong '{s}'")

@@ -7,9 +7,9 @@ s = "tin học python"
 # Chuyển xâu s thành dạng viết hoa chữ cái đầu mỗi từ
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-upper = ""
-lower = ""
-capitalized = ""
+upper = s.upper()
+lower = s.lower()
+capitalized = s.title()
 
 print("Chữ hoa:", upper)
 print("Chữ thường:", lower)

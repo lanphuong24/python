@@ -6,8 +6,8 @@ s = "Tin học 10"
 # Cắt lấy 2 ký tự cuối cùng của xâu s
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-first3 = ""
-last2 = ""
+first3 = s[:3]
+last2 = s[-2:]
 
 print("3 ký tự đầu:", first3)
 print("2 ký tự cuối:", last2)

@@ -7,11 +7,11 @@ s = "An Bình Châu Dũng"
 # In ra số lượng tên trong xâu
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-names = []
+names = s.split(" ")
 
-firstName = ""
-lastName = ""
-count = 0
+firstName = names[0]
+lastName = names[-1]
+count = len(names)
 
 print("Danh sách:", names)
 print("Tên đầu:", firstName)

@@ -5,5 +5,5 @@ s = "Tin học"
 # Sửa code bên dưới để in ra độ dài của xâu s
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-length = 0
+length = len(s)
 print("Độ dài xâu:", length)

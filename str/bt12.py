@@ -6,8 +6,9 @@
 print("Nhập một câu:")
 s = input()
 
-wordCount = 0
+word = s.split(" ")
+wordCount = len(word)
 
-pass
+
 
 print(f"Số từ trong câu: {wordCount}")

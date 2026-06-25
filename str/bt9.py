@@ -6,7 +6,7 @@ s = "Tin học"
 # vd: "Tin học" => "cọh niT"
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-result = ""
+result = s[::-1]
 
 print("Xâu gốc:", s)
 print("Xâu đảo ngược:", result)

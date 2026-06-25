@@ -7,4 +7,9 @@ s = "Tin học Python"
 # In ra kết quả True/False
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
-pass
+p = "Python" in s
+j = "Java" in s
+
+print(p)
+print(j)
+

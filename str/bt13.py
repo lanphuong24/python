@@ -6,7 +6,7 @@ names = ["An", "Bình", "Châu", "Dũng"]
 # vd: "An, Bình, Châu, Dũng"
 # Code phải đảm bảo vẫn đúng khi sửa đổi danh sách names
 
-result = ""
+result = ", ".join(names)
 
 print("Danh sách:", names)
 print("Kết quả:", result)

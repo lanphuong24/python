@@ -7,8 +7,9 @@ c = "h"
 # Nếu không tìm thấy, in ra thông báo "Không tìm thấy"
 # Code phải đảm bảo vẫn đúng khi sửa đổi s và c
 
-pos = 0
+pos = s.find(c)
+print(pos)
 
-pass
+
 
 # Trong python có hỗ trợ sẵn hàm tìm vị trí ký tự không?

@@ -11,4 +11,4 @@ s = "Tin học"
 # Code phải đảm bảo vẫn đúng khi sửa đổi xâu s
 
 for c in s:
-    pass
+   print(c) 
