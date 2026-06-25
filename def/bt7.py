@@ -4,7 +4,11 @@
 # Không được dùng hàm sum() có sẵn
 # vd: sum_list([1, 2, 3, 4]) => 10
 
-pass
+def sum_list(a):
+    tong = 0
+    for i in a:
+        tong += i
+    return tong
 
 print(sum_list([1, 2, 3, 4]))     # 10
 print(sum_list([10, -5, 3]))      # 8

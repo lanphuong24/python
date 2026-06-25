@@ -4,7 +4,7 @@
 # vd: greet("An") => "Xin chào, An!"
 
 def greet(name):
-    pass
+    print("xin chào", name)
 
 
 greet("An")

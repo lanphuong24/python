@@ -6,7 +6,10 @@
 #     is_positive(0)  => False
 
 def is_positive(n):
-    pass
+    if n > 0:
+        return True
+    else:
+        return False
 
 
 print(is_positive(5))    # True

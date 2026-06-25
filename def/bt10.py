@@ -6,7 +6,11 @@
 #     dem_uoc(7) => 2  (ước của 7 là: 1, 7)
 
 def dem_uoc(n):
-    pass
+    dem = 0
+    for i in range(1, n+1):
+        if n % i == 0:
+            dem += 1
+    return dem
 
 
 def is_nguyen_to(n):

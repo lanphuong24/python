@@ -6,8 +6,10 @@
 # vd: tong([1, 2, 3, 4]) => 10
 
 def tong(a):
-    pass
-
+    t = 0
+    for i in a:
+        t += i
+    return t
 
 def trung_binh(a):
     return tong(a) / len(a)

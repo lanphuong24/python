@@ -4,7 +4,11 @@
 # Không được dùng hàm max() có sẵn
 # vd: max2(3, 7) => 7
 
-pass
+def max2(a, b):
+    if a > b:
+        return a
+    else:
+        return b
 
 print(max2(3, 7))    # 7
 print(max2(10, 2))   # 10

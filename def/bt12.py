@@ -8,7 +8,14 @@
 #     tinh_xep_loai(4.0) => "Yếu"
 
 def tinh_xep_loai(diem):
-    pass
+    if diem >= 8:
+        return "Giỏi"
+    elif diem >= 6:
+        return "Khá"
+    elif diem >= 5:
+        return "Trung bình"
+    else:
+        return "Yếu" 
 
 
 def xep_loai_hs(ten, diem):

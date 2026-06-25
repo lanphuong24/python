@@ -4,7 +4,7 @@
 # vd: square(4) => 16
 
 def square(n):
-    pass
+    return n ** 2
 
 
 print(square(4))    # 16

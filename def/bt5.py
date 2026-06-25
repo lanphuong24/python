@@ -5,7 +5,10 @@
 # vd: min2(3, 7) => 3
 
 def min2(a, b):
-    pass
+    if a < b:
+        return a
+    else:
+        return b
 
 
 print(min2(3, 7))    # 3

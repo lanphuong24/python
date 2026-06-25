@@ -4,7 +4,13 @@
 # Trả về số lần ký tự c xuất hiện trong s
 # vd: count_char("banana", "a") => 3
 
-pass
+def count_char(s, c):
+    dem = 0
+    for i in s:
+        if i == c:
+            dem += 1
+    return dem
+
 
 print(count_char("banana", "a"))   # 3
 print(count_char("hello", "l"))    # 2

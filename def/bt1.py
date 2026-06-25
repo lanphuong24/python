@@ -4,8 +4,7 @@
 # vd: add(3, 4) => 7
 
 def add(a, b):
-    pass
-
+    return a + b
 
 print(add(3, 4))    # 7
 print(add(10, 20))  # 30
