@@ -16,5 +16,6 @@
     "editor.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "files.autoSave": "onFocusChange",
-    "python.terminal.focusAfterLaunch": false
+    "python.terminal.focusAfterLaunch": false,
+    "workbench.editor.enablePreview": false
 }
