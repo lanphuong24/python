@@ -7,10 +7,10 @@
 #     A(0;0),  B(3;-1)  => [3, -1]
 #     A(2;3),  B(1;1)   => [-1, -2]
 
-def vec_ab(x1, y1, x2, y2):
+def vec_AB(A, B):
     pass
 
 
 x1, y1 = map(int, input("Nhập điểm A(x1;y1): ").split())
 x2, y2 = map(int, input("Nhập điểm B(x2;y2): ").split())
-print(vec_ab(x1, y1, x2, y2))
+print(vec_AB([x1, y1], [x2, y2]))

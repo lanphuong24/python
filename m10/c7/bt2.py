@@ -14,4 +14,4 @@ pass
 
 a, b = map(int, input("Nhập vector chỉ phương v(a;b): ").split())
 x0, y0 = map(int, input("Nhập tọa độ A(x0;y0): ").split())
-print(pt_tham_so(a, b, x0, y0))
+print(vec_pt_tham_so([a, b], [x0, y0]))

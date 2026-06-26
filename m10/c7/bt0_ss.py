@@ -11,4 +11,4 @@ pass
 
 a1, b1 = map(int, input("Nhập vector u(a1;b1): ").split())
 a2, b2 = map(int, input("Nhập vector v(a2;b2): ").split())
-print(song_song(a1, b1, a2, b2))
+print(vec_song_song([a1, b1], [a2, b2]))

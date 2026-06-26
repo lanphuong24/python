@@ -10,4 +10,4 @@
 pass
 
 a, b = map(int, input("Nhập vector u(a;b): ").split())
-print(do_lon(a, b))
+print(vec_do_lon([a, b]))

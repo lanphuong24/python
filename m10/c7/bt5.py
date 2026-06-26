@@ -14,4 +14,4 @@ pass
 
 a1, b1, c1 = map(int, input("Nhập hệ số d1 (a1;b1;c1): ").split())
 a2, b2, c2 = map(int, input("Nhập hệ số d2 (a2;b2;c2): ").split())
-print(goc_2_duong_thang(a1, b1, c1, a2, b2, c2))
+print(vec_goc_2_duong_thang([a1, b1, c1], [a2, b2, c2]))

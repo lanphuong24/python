@@ -13,4 +13,4 @@ pass
 
 a, b = map(int, input("Nhập VTPT u(a;b): ").split())
 x0, y0 = map(int, input("Nhập tọa độ A(x0;y0): ").split())
-print(pt_duong_thang(a, b, x0, y0))
+print(vec_pt_duong_thang([a, b], [x0, y0]))
