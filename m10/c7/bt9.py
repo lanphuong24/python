@@ -20,4 +20,4 @@ def duong_tron_ngoai_tiep(A, B, C):
 Ax, Ay = map(float, input("Nhập tọa độ A (x;y): ").split())
 Bx, By = map(float, input("Nhập tọa độ B (x;y): ").split())
 Cx, Cy = map(float, input("Nhập tọa độ C (x;y): ").split())
-print(duong_tron_ngoai_tiep((Ax, Ay), (Bx, By), (Cx, Cy)))
+print(duong_tron_ngoai_tiep([Ax, Ay], [Bx, By], [Cx, Cy]))

@@ -20,4 +20,4 @@ def kiem_tra_diem_duong_tron(I, R, M):
 a, b = map(float, input("Nhập tọa độ tâm I (a;b): ").split())
 R = float(input("Nhập bán kính R: "))
 x, y = map(float, input("Nhập tọa độ điểm M (x;y): ").split())
-print(kiem_tra_diem_duong_tron((a, b), R, (x, y)))
+print(kiem_tra_diem_duong_tron([a, b], R, [x, y]))
