@@ -18,7 +18,20 @@
 #   Nếu D != 0: x = Dx/D, y = Dy/D
 
 def giao_diem_2_duong_thang(d1, d2):
-    pass
+    a1 = d1[0]
+    b1 = d1[1]
+    c1 = d1[2]
+    a2 = d2[0]
+    b2 = d2[1]
+    c2 = d2[2]
+    D  = a1*b2 - a2*b1
+    Dx = -c1*b2 + c2*b1
+    Dy = -a1*c2 + a2*c1
+    if D == 0:
+        return []
+    else:
+        return [Dx/D, Dy/D]
+    
 
 
 a1, b1, c1 = map(int, input("Nhập hệ số d1 (a1;b1;c1): ").split())

@@ -8,7 +8,7 @@
 #     A(2;3),  B(1;1)   => [-1, -2]
 
 def vec_AB(A, B):
-    pass
+    return [B[0]-A[0], B[1]-A[1]]
 
 
 x1, y1 = map(int, input("Nhập điểm A(x1;y1): ").split())

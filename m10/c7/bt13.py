@@ -12,7 +12,7 @@
 #   Đường chuẩn: x = -p/2
 
 def tieu_diem_duong_chuan(p):
-    pass
+    return f" F({p/2};0), x={-p/2}"
 
 
 p = float(input("Nhập p: "))

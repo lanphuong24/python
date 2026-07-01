@@ -13,8 +13,40 @@
 #   Bán kính R = IA
 #   Định dạng phương trình đường tròn theo yêu cầu
 
+import math
+
+def giao_diem_2_duong_thang(d1, d2):
+    a1 = d1[0]
+    b1 = d1[1]
+    c1 = d1[2]
+    a2 = d2[0]
+    b2 = d2[1]
+    c2 = d2[2]
+    D  = a1*b2 - a2*b1
+    Dx = -c1*b2 + c2*b1
+    Dy = -a1*c2 + a2*c1
+    if D == 0:
+        return []
+    else:
+        return [Dx/D, Dy/D]
+
 def duong_tron_ngoai_tiep(A, B, C):
-    pass
+    M = [(A[0]+B[0])/2, (A[1]+B[1])/2]
+    a1 = B[0]-A[0]
+    b1 = B[1]-A[1]
+    c1 = -a1*M[0]-b1*M[1]
+
+    N = [(A[0]+C[0])/2, (A[1]+C[1])/2]
+    a2 = C[0]-A[0]
+    b2 = C[1]-A[1]
+    c2 = -a2*N[0]-b2*N[1]
+
+    I = giao_diem_2_duong_thang([a1, b1, c1], [a2, b2, c2])
+
+    vec_IA = [A[0]-I[0], A[1]-I[1]]
+    ban_kinh = math.sqrt(vec_IA[0]**2 + vec_IA[1]**2)
+    return f"(x - {I[0]})**2 + (y - {I[1]})**2 = {ban_kinh**2}"
+
 
 
 Ax, Ay = map(float, input("Nhập tọa độ A (x;y): ").split())

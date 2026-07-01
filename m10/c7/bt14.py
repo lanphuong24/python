@@ -12,7 +12,8 @@
 #   => p = y0^2 / (2*x0)
 
 def pt_parabol(M):
-    pass
+    p = M[1]**2 / (2*M[0])
+    return f" y^2 = {2*p}x "
 
 
 x0, y0 = map(float, input("Nhập tọa độ M (x0;y0): ").split())

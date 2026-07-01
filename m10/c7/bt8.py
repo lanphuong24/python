@@ -14,7 +14,10 @@
 #   Phương trình: (x0-a)(x - x0) + (y0-b)(y - y0) = 0
 
 def tiep_tuyen_duong_tron(I, R, M):
-    pass
+    a = I[0]-M[0]
+    b = I[1]-M[1]
+    c = -a*M[0]-b*M[1]
+    return f"{a}x + {b}y + {c} = 0"
 
 
 a, b = map(float, input("Nhập tọa độ tâm I (a;b): ").split())

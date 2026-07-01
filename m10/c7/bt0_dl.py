@@ -7,7 +7,11 @@
 #     u(1;0)   => 1.0
 #     u(1;1)   => 1.41
 
-pass
+import math
+
+def vec_do_lon(ab):
+    return math.sqrt((ab[0])**2 + (ab[1])**2)
+
 
 a, b = map(int, input("Nhập vector u(a;b): ").split())
 print(vec_do_lon([a, b]))

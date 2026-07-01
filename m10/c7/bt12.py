@@ -12,8 +12,11 @@
 #   F1(-c;0), F2(c;0)
 #   Tiêu cự = 2c
 
+import math
+
 def tieu_diem_tieu_cu_hypebol(a, b):
-    pass
+    c = math.sqrt(a**2 + b**2)
+    return f" F1({-c};0), F2({c};0), 2c={2*c}"
 
 
 a = float(input("Nhập a: "))

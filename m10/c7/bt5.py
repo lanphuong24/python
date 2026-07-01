@@ -9,8 +9,15 @@
 #   math.fabs(x) tính trị tuyệt đối
 # VD: d1(1;0;0),    d2(1;1;0)   => 45.0°
 #     d1(1;0;0),    d2(0;1;0)   => 90.0°
+import math
 
-pass
+def vec_goc_2_duong_thang(d1, d2):
+    a1 = d1[0]
+    b1 = d1[1]
+    a2 = d2[0]
+    b2 = d2[1]
+    cos = (math.fabs(a1*a2 + b1*b2))/(math.sqrt(a1*a1 + b1*b1) * math.sqrt(a2*a2 + b2*b2))
+    return round(math.degrees(cos), 0)
 
 a1, b1, c1 = map(int, input("Nhập hệ số d1 (a1;b1;c1): ").split())
 a2, b2, c2 = map(int, input("Nhập hệ số d2 (a2;b2;c2): ").split())

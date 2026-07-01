@@ -10,7 +10,9 @@
 #     v(1;-3), A(0;4)  => "x = t & y = 4 - 3t"
 #     v(-2;5), A(1;0)  => "x = 1 - 2t & y = 5t"
 
-pass
+def vec_pt_tham_so(v, A):
+   return f"x = {A[0]} + {v[0]}t & y = {A[1]} + {v[1]}t"
+
 
 a, b = map(int, input("Nhập vector chỉ phương v(a;b): ").split())
 x0, y0 = map(int, input("Nhập tọa độ A(x0;y0): ").split())

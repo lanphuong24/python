@@ -9,7 +9,13 @@
 #     d1(1;2;-3), d2(2;4;-8)  => "Song song"
 #     d1(1;2;-3), d2(2;-1;1)  => "Cắt nhau"
 
-pass
+def vec_vi_tri_tuong_doi(d1, d2):
+    if d1[0]*d2[1] != d1[1]*d2[0]:
+        return "cat nhau"
+    elif d1[0]*d2[1] == d1[1]*d2[0]:
+        return "trung nhau"
+    elif d1[0]*d2[1] != d1[1]*d2[0] and d1[1]*d2[2] != d1[2]*d2[1]:
+        return "song song"
 
 a1, b1, c1 = map(int, input("Nhập hệ số d1 (a1;b1;c1): ").split())
 a2, b2, c2 = map(int, input("Nhập hệ số d2 (a2;b2;c2): ").split())

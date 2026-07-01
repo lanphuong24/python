@@ -12,9 +12,17 @@
 # VD: I(0;0), R=5, M(3;4)   => Trên đường tròn
 #     I(0;0), R=5, M(1;1)   => Trong đường tròn
 #     I(0;0), R=5, M(5;5)   => Ngoài đường tròn
+import math
 
 def kiem_tra_diem_duong_tron(I, R, M):
-    pass
+    IM = [M[0]-I[0], M[1]-I[1]]
+    dthang = math.sqrt(IM[0]**2 + IM[1]**2)
+    if dthang == R:
+        return "trong duong tron"
+    elif dthang > R:
+        return "ngoai duong tron"
+    else:
+        return "trong duong tron"
 
 
 a, b = map(float, input("Nhập tọa độ tâm I (a;b): ").split())

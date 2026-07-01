@@ -7,7 +7,8 @@
 #     u(1;0),  v(0;1)   => False
 #     u(2;-1), v(-4;2)  => True
 
-pass
+def vec_song_song(a, b):
+    return a[0]*b[1] == b[0]*a[1]
 
 a1, b1 = map(int, input("Nhập vector u(a1;b1): ").split())
 a2, b2 = map(int, input("Nhập vector v(a2;b2): ").split())
