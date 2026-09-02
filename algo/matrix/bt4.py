@@ -92,12 +92,3 @@ pass
 print("\n* Bài 6:")
 
 pass
-
-
-# Bài 7: In số thứ tự của dòng có tổng các giá trị lớn nhất.
-# Dòng đầu tiên được tính là dòng số 1.
-# Đáp án mong đợi: dòng 9 có tổng lớn nhất là 58
-
-print("\n* Bài 7:")
-
-pass
