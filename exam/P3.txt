@@ -1,0 +1,336 @@
+P3 – WHILE, LIST, STR, DEF VÀ VÒNG LẶP LỒNG NHAU (30 CÂU)
+
+Câu 1. Đoạn chương trình sau in ra giá trị nào?
+n = 1
+S = 0
+while n <= 5:
+    S += n
+    n += 1
+print(S)
+A. 10    B. 12    C. 14    D. 15
+
+Câu 2. Đoạn chương trình sau in ra giá trị nào?
+n = 20
+dem = 0
+while n > 1:
+    n //= 2
+    dem += 1
+print(dem)
+A. 2    B. 3    C. 4    D. 5
+
+Câu 3. Đoạn chương trình sau in ra giá trị nào?
+n = 407
+S = 0
+while n > 0:
+    S += n % 10
+    n //= 10
+print(S)
+A. 7    B. 11    C. 40    D. 407
+
+Câu 4. Đoạn chương trình sau in ra giá trị nào?
+n = 120
+r = 0
+while n > 0:
+    r = r * 10 + n % 10
+    n //= 10
+print(r)
+A. 12    B. 21    C. 102    D. 120
+
+Câu 5. Đoạn chương trình sau in ra giá trị nào?
+a = [2, 5, 1, 6, 3]
+i = 0
+S = 0
+while i < len(a):
+    if a[i] % 2 != 0:
+        S += a[i]
+    i += 1
+print(S)
+A. 6    B. 8    C. 9    D. 11
+
+Câu 6. Đoạn chương trình sau in ra giá trị nào?
+s = "code"
+i = 0
+t = ""
+while i < len(s):
+    t = s[i] + t
+    i += 1
+print(t)
+A. code    B. deco    C. odec    D. edoc
+
+Câu 7. Đoạn chương trình sau in ra giá trị nào?
+def f(x):
+    return x * x + 1
+
+print(f(5))
+A. 21    B. 25    C. 26    D. 36
+
+Câu 8. Đoạn chương trình sau in ra giá trị nào?
+def check(x):
+    if x > 0:
+        return 1
+    if x < 0:
+        return -1
+    return 0
+
+print(check(-7))
+A. -1    B. 0    C. 1    D. 7
+
+Câu 9. Đoạn chương trình sau in ra giá trị nào?
+def tong(a):
+    S = 0
+    for x in a:
+        S += x
+    return S
+
+print(tong([2, 4, 6]))
+A. 6    B. 10    C. 12    D. 24
+
+Câu 10. Đoạn chương trình sau in ra giá trị nào?
+def change(a):
+    a[0] += a[-1]
+    return a
+
+A = [2, 3, 4]
+B = change(A)
+print(A[0] + B[-1])
+A. 6    B. 8    C. 10    D. 12
+
+Câu 11. Đoạn chương trình sau in ra giá trị nào?
+T = 0
+for i in range(2):
+    for j in range(3):
+        T += i * 3 + j
+print(T)
+A. 9    B. 12    C. 15    D. 18
+
+Câu 12. Đoạn chương trình sau in ra giá trị nào?
+T = 0
+for i in range(1, 4):
+    for j in range(1, i + 1):
+        T += i * j
+print(T)
+A. 18    B. 20    C. 24    D. 25
+
+Câu 13. Đoạn chương trình sau in ra giá trị nào?
+A = [[1, 2], [3, 4], [5, 6]]
+i = 0
+T = 0
+while i < len(A):
+    j = 0
+    while j < len(A[i]):
+        T += A[i][j]
+        j += 1
+    i += 1
+print(T)
+A. 15    B. 18    C. 21    D. 24
+
+Câu 14. Đoạn chương trình sau in ra giá trị nào?
+def minimum(a):
+    m = a[0]
+    for x in a[1:]:
+        if x < m:
+            m = x
+    return m
+
+print(minimum([3, -2, 7, -5, 1]))
+A. -5    B. -2    C. 1    D. 7
+
+Câu 15. Đoạn chương trình sau in ra giá trị nào?
+def find(a, x):
+    i = 0
+    while i < len(a):
+        if a[i] == x:
+            return i
+        i += 1
+    return -1
+
+print(find([2, 4, 7, 1], 7))
+A. -1    B. 1    C. 2    D. 3
+
+Câu 16. Đoạn chương trình sau in ra giá trị nào?
+def count_char(s, c):
+    dem = 0
+    for x in s:
+        if x == c:
+            dem += 1
+    return dem
+
+print(count_char("banana", "a"))
+A. 2    B. 3    C. 4    D. 6
+
+Câu 17. Đoạn chương trình sau in ra giá trị nào?
+def palindrome(s):
+    left = 0
+    right = len(s) - 1
+    while left < right:
+        if s[left] != s[right]:
+            return False
+        left += 1
+        right -= 1
+    return True
+
+print(palindrome("level"))
+A. True    B. False    C. level    D. 5
+
+Câu 18. Đoạn chương trình sau in ra giá trị nào?
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+print(gcd(48, 18))
+A. 2    B. 3    C. 6    D. 12
+
+Câu 19. Đoạn chương trình sau in ra giá trị nào?
+def arrange(a):
+    le = []
+    chan = []
+    for x in a:
+        if x % 2 != 0:
+            le.append(x)
+        else:
+            chan.append(x)
+    return le + chan
+
+print(arrange([2, 7, 4, 1, 3]))
+A. [2, 4, 7, 1, 3]    B. [7, 1, 3, 2, 4]
+C. [3, 1, 7, 4, 2]    D. [1, 2, 3, 4, 7]
+
+Câu 20. Đoạn chương trình sau in ra giá trị nào?
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))
+A. 15    B. 25    C. 60    D. 120
+
+Câu 21. Đoạn chương trình sau in ra giá trị nào?
+def total(a, n):
+    if n == 0:
+        return 0
+    return a[n - 1] + total(a, n - 1)
+
+print(total([1, 2, 3, 4], 4))
+A. 4    B. 6    C. 10    D. 24
+
+Câu 22. Đoạn chương trình sau in ra giá trị nào?
+a = [1, 2, 3, 4, 5]
+dem = 0
+for i in range(len(a)):
+    for j in range(i + 1, len(a)):
+        if (a[i] + a[j]) % 2 == 0:
+            dem += 1
+print(dem)
+A. 3    B. 4    C. 5    D. 6
+
+Câu 23. Đoạn chương trình sau in ra giá trị nào?
+def max_row(A):
+    vi_tri = 0
+    tong_lon_nhat = sum(A[0])
+    for i in range(1, len(A)):
+        tong = sum(A[i])
+        if tong > tong_lon_nhat:
+            tong_lon_nhat = tong
+            vi_tri = i
+    return vi_tri + 1
+
+A = [[2, 5, 1], [7, 0, 4], [3, 8, 6]]
+print(max_row(A))
+A. 1    B. 2    C. 3    D. 17
+
+Câu 24. Đoạn chương trình sau in ra giá trị nào?
+def binary_search(a, x):
+    left = 0
+    right = len(a) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if a[mid] == x:
+            return mid
+        if a[mid] < x:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+
+print(binary_search([1, 3, 5, 7, 9], 7))
+A. 1    B. 2    C. 3    D. 4
+
+Câu 25. Đoạn chương trình sau in ra giá trị nào?
+a = [4, 1, 3, 2]
+for i in range(len(a)):
+    for j in range(len(a) - 1 - i):
+        if a[j] > a[j + 1]:
+            a[j], a[j + 1] = a[j + 1], a[j]
+print(a)
+A. [1, 2, 3, 4]    B. [4, 3, 2, 1]
+C. [1, 3, 2, 4]    D. [2, 1, 3, 4]
+
+Câu 26. Đoạn chương trình sau in ra giá trị nào?
+s = "aaaa"
+sub = "aa"
+dem = 0
+for i in range(len(s) - len(sub) + 1):
+    dung = True
+    for j in range(len(sub)):
+        if s[i + j] != sub[j]:
+            dung = False
+    if dung:
+        dem += 1
+print(dem)
+A. 2    B. 3    C. 4    D. 6
+
+Câu 27. Đoạn chương trình sau in ra giá trị nào?
+def change(a):
+    b = a[:]
+    for i in range(len(b)):
+        b[i] *= 2
+    return b
+
+a = [1, 2, 3]
+b = change(a)
+print(sum(a) + sum(b))
+A. 6    B. 12    C. 18    D. 24
+
+Câu 28. Đoạn chương trình sau in ra giá trị nào?
+def count_bits(n):
+    if n == 0:
+        return 0
+    return n % 2 + count_bits(n // 2)
+
+print(count_bits(29))
+A. 3    B. 4    C. 5    D. 29
+
+Câu 29. Đoạn chương trình sau in ra giá trị nào?
+def upper_sum(A):
+    T = 0
+    for i in range(len(A)):
+        for j in range(len(A[i])):
+            if i <= j:
+                T += A[i][j]
+    return T
+
+A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(upper_sum(A))
+A. 15    B. 21    C. 26    D. 45
+
+Câu 30. Tìm hiểu hàm Python sau:
+def F(a):
+    j = 0
+    for i in range(len(a)):
+        if a[i] < 0:
+            a[j], a[i] = a[i], a[j]
+            j += 1
+    return j, a
+
+Hãy xác định tính đúng hoặc sai của các nhận định sau:
+a) F đếm được số phần tử âm của danh sách a.
+b) Sau khi F kết thúc, mọi số âm đứng trước mọi số không âm.
+c) F([3, -1, 4, -2, 0]) trả về (2, [-1, -2, 4, 3, 0]).
+d) F luôn giữ nguyên thứ tự tương đối ban đầu của các số không âm.
+
+ĐÁP ÁN
+1.D  2.C  3.B  4.B  5.C  6.D  7.C  8.A  9.C  10.C
+11.C  12.D  13.C  14.A  15.C  16.B  17.A  18.C  19.B  20.D
+21.C  22.B  23.C  24.C  25.A  26.B  27.C  28.B  29.C
+30. a) Đúng; b) Đúng; c) Đúng; d) Sai

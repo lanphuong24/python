@@ -1,0 +1,127 @@
+P1 – TOÁN TỬ CƠ BẢN TRONG PYTHON (30 CÂU)
+
+Câu 1. Kết quả của biểu thức 8 + 3 * 2 là bao nhiêu?
+A. 11    B. 14    C. 16    D. 22
+
+Câu 2. Kết quả của biểu thức 17 // 5 + 17 % 5 là bao nhiêu?
+A. 3    B. 4    C. 5    D. 7
+
+Câu 3. Kết quả của biểu thức 2 ** 3 ** 2 là bao nhiêu?
+A. 64    B. 128    C. 256    D. 512
+
+Câu 4. Đoạn chương trình sau in ra giá trị nào?
+x = 10
+x += 3
+x *= 2
+print(x)
+A. 16    B. 20    C. 23    D. 26
+
+Câu 5. Kết quả của biểu thức 7 / 2 là gì?
+A. 3    B. 3.0    C. 3.5    D. 4
+
+Câu 6. Kết quả của biểu thức -7 // 3 là bao nhiêu?
+A. -3    B. -2    C. 2    D. 3
+
+Câu 7. Kết quả của biểu thức -7 % 3 là bao nhiêu?
+A. -2    B. -1    C. 1    D. 2
+
+Câu 8. Kết quả của biểu thức 5 > 3 and 2 < 1 là gì?
+A. True    B. False    C. 0    D. 1
+
+Câu 9. Kết quả của biểu thức not (4 == 5) là gì?
+A. True    B. False    C. 4    D. 5
+
+Câu 10. Kết quả của biểu thức True or False and False là gì?
+A. True    B. False    C. 0    D. Lỗi
+
+Câu 11. Với x = 8, kết quả của biểu thức 3 < x <= 8 là gì?
+A. True    B. False    C. 3    D. 8
+
+Câu 12. Đoạn chương trình sau in ra giá trị nào?
+a = 5
+b = 5.0
+print(a == b)
+A. True    B. False    C. 5    D. 5.0
+
+Câu 13. Đoạn chương trình sau in ra giá trị nào?
+a, b = 4, 7
+x = a if a > b else b
+print(x)
+A. 4    B. 7    C. 11    D. False
+
+Câu 14. Kết quả của biểu thức 6 & 3 là bao nhiêu?
+A. 1    B. 2    C. 3    D. 7
+
+Câu 15. Kết quả của biểu thức 5 | 2 là bao nhiêu?
+A. 2    B. 5    C. 6    D. 7
+
+Câu 16. Kết quả của biểu thức 5 ^ 3 là bao nhiêu?
+A. 2    B. 6    C. 7    D. 8
+
+Câu 17. Kết quả của biểu thức 1 << 3 là bao nhiêu?
+A. 3    B. 4    C. 8    D. 16
+
+Câu 18. Kết quả của biểu thức 20 >> 2 là bao nhiêu?
+A. 4    B. 5    C. 8    D. 10
+
+Câu 19. Đoạn chương trình sau in ra giá trị nào?
+x = 9
+x //= 2
+x %= 3
+print(x)
+A. 0    B. 1    C. 2    D. 4
+
+Câu 20. Đoạn chương trình sau in ra giá trị nào?
+a, b = 3, 4
+a, b = b, a + b
+print(a * b)
+A. 12    B. 21    C. 24    D. 28
+
+Câu 21. Đoạn chương trình sau in ra giá trị nào?
+x, y = 0, 5
+print(x and y)
+A. 0    B. 5    C. False    D. True
+
+Câu 22. Đoạn chương trình sau in ra giá trị nào?
+x = ""
+y = "Python"
+print(x or y)
+A. Chuỗi rỗng    B. Python    C. True    D. False
+
+Câu 23. Kết quả của biểu thức "ab" * 3 là gì?
+A. ab3    B. aaabbb    C. ababab    D. Lỗi
+
+Câu 24. Kết quả của biểu thức "apple" < "banana" là gì?
+A. True    B. False    C. apple    D. banana
+
+Câu 25. Kết quả của biểu thức -3 ** 2 là bao nhiêu?
+A. -9    B. -6    C. 6    D. 9
+
+Câu 26. Kết quả của biểu thức (10 - 2) * 3 ** 2 // 4 là bao nhiêu?
+A. 12    B. 16    C. 18    D. 24
+
+Câu 27. Đoạn chương trình sau in ra giá trị nào?
+a, b = 6, 4
+x = not (a < b) and (a + b == 10)
+print(x)
+A. True    B. False    C. 10    D. Lỗi
+
+Câu 28. Đoạn chương trình sau in ra giá trị nào?
+x = 1
+x += x * 3
+print(x)
+A. 3    B. 4    C. 6    D. 9
+
+Câu 29. Kết quả của biểu thức 0 < 5 % 3 < 3 là gì?
+A. True    B. False    C. 2    D. 3
+
+Câu 30. Đoạn chương trình sau in ra giá trị nào?
+a, b = 8, 3
+x = (a // b) ** 2 + (a % b) * 3
+print(x)
+A. 8    B. 9    C. 10    D. 12
+
+ĐÁP ÁN
+1.B  2.C  3.D  4.D  5.C  6.A  7.D  8.B  9.A  10.A
+11.A  12.A  13.B  14.B  15.D  16.B  17.C  18.B  19.B  20.D
+21.A  22.B  23.C  24.A  25.A  26.C  27.A  28.B  29.A  30.C
