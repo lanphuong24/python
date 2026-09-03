@@ -14,12 +14,15 @@ hocsinh = [
 # ["An", 8, 7, 9]
 # ["Bình", 6, 8, 7]
 # ...
+
 for hoc_sinh in hocsinh:
+    print(hoc_sinh)
     pass
 
 # Sửa code bên dưới để in tên của tất cả học sinh,
 # mỗi tên trên một dòng
 for hoc_sinh in hocsinh:
+    print(hoc_sinh[0])
     pass
 
 # Sửa code bên dưới để in từng giá trị trong mảng
@@ -28,19 +31,25 @@ for hoc_sinh in hocsinh:
 # An 8 7 9
 # Bình 6 8 7
 # ...
-for hang in hocsinh:
-    for gia_tri in hang:
-        pass
+for hs in hocsinh:
+    print(hs[0], hs[1], hs[2], hs[3])
 
 # Sửa code bên dưới để tính và in ra điểm trung bình môn Hóa
 # Code phải đảm bảo vẫn đúng khi thay đổi điểm hoặc danh sách học sinh
-diem_trung_binh_hoa = 0
-pass
+
+a = hocsinh[0][3]
+b = hocsinh[1][3]
+c = hocsinh[2][3]
+d = hocsinh[3][3]
+e = diem_trung_binh_hoa = (a+b+c+d)/4
 print("Điểm trung bình môn Hóa:", diem_trung_binh_hoa)
 
 # Sửa code bên dưới để tìm và in ra điểm Toán cao nhất
 # Không sử dụng hàm max()
 # Code phải đảm bảo vẫn đúng khi thay đổi điểm hoặc danh sách học sinh
-diem_toan_cao_nhat = 0
-pass
+diem_toan_cao_nhat = hocsinh[0][1]
+for hs in hocsinh:
+    if hs[1] > diem_toan_cao_nhat:
+        diem_toan_cao_nhat = hs[1]
+    
 print("Điểm Toán cao nhất:", diem_toan_cao_nhat)
