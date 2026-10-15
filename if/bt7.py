@@ -9,3 +9,18 @@
 #   - Nếu tổng điểm dưới 18, thông báo "Bạn đã đậu TDU"
 # Nếu tổng điểm dưới 15, thông báo "Rớt tốt nghiệp"
 
+diemT = int(input('Nhap diem toan: '))
+diemTA = int(input('Nhap diem tieng anh: '))
+diemTH = int(input('Nhap diem tin hoc: '))
+tongdiem = diemT + diemTA + diemTH
+if tongdiem >= 15:
+    if tongdiem >= 24:
+        print('Ban da dau truong PTIT')
+    elif tongdiem >= 21:
+        print('Ban da dau truong HUB')
+    elif tongdiem >=18:
+        print('Ban da dau truong FTU')
+    else:
+        print('Ban da dau TDU')
+else:
+    print('Rot tot nghiep')

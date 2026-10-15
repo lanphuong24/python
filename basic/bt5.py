@@ -1,4 +1,5 @@
 ## Kiểm tra số chính phương
 
 # Nhập số nguyên n
-# Kiểm tra n có phải là số chính nguyên hay không.
+
+a = int(input('Nhap so nguyen a:'))

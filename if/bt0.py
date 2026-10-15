@@ -3,4 +3,8 @@
 # Nhập tuổi
 # Kiểm tra, nếu tuổi lớn hơn hoặc bằng 13, thông báo "Được tạo tài khoản"
 # Ngược lại, thông báo "Chưa đủ tuổi"
-
+a = int(input('Nhap tuoi:'))
+if a >= 13:
+    print('Duoc tao tai khoan')
+else:
+    print('Chua du tuoi')

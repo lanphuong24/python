@@ -6,4 +6,12 @@
 #   - Có áo phao, thông báo "Được xuống hồ"
 #   - Không có áo phao, thông báo "Nguy hiểm"
 
-
+bbk = input('Biet boi khong? ')
+capk = input('Co ao phao khong? ')
+if bbk == 'Co':
+    print('Cho xuong ho')
+else:
+    if capk == 'Co':
+        print('Duoc xuong ho')
+    else:
+        print('Nguy hiem')

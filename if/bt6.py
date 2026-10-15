@@ -6,4 +6,12 @@
 #   - Hạng kiểm trung bình hoặc yếu, sẽ xem xét thêm
 # Nếu ĐTB dưới 5, ở lại lớp
 
-
+dtb = float(input('Nhap diem trung binh: '))
+hanhkiem = input('Nhap hanh kiem: ')
+if dtb >= 5:
+    if hanhkiem == 'tot' or hanhkiem == 'kha':
+        print('Duoc len lop')
+    else:
+        print('Dang xem xet')
+else:
+    print('O lai lop')
