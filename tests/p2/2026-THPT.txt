@@ -1,0 +1,77 @@
+Câu 1. Tìm hiểu đoạn chương trình Python sau:
+
+Dòng    Python
+1       x, a, b = 1, 4, 8
+2       while (a < b):
+3           if (x < a): x = x * a
+4           else: x = x // a
+5           a = a + 1
+6       print(x)
+
+Sau khi thực hiện đoạn chương trình trên, giá trị nào sau đây được hiển thị trên màn hình?
+
+A. 4
+B. 21
+C. 20
+D. 3
+
+--------------------------------------------------
+
+Câu 2. Tìm hiểu đoạn chương trình Python sau:
+
+Dòng    Python
+1       L = [2, 5, 4]
+2       k, n, T = 1, 3, 0
+3       for i in range(0, n):
+4           for j in range(0, i + 1):
+5               T = T + k * L[j]
+6           k = -1 * k
+
+Sau khi thực hiện đoạn chương trình trên, biến T có giá trị nào sau đây?
+
+A. -5
+B. -11
+C. 6
+D. 2
+
+--------------------------------------------------
+
+Câu 3. Tìm hiểu đoạn chương trình Python sau:
+
+Dòng    Python
+1       n = 1
+2       while n % a != 0 and n % b != 0:
+3           n = n + 1
+
+Giả sử a và b là hai số nguyên dương khác nhau, sau khi thực hiện đoạn chương trình trên, n là số nguyên dương thỏa mãn tính chất nào sau đây?
+
+A. Nhỏ nhất và chia hết cho cả a và b.
+B. Nhỏ nhất và chia hết cho a hoặc b.
+C. Lớn nhất và là ước số của a hoặc b.
+D. Lớn nhất và là ước số của cả a và b.
+
+--------------------------------------------------
+
+Câu 4. Cho hàm sau đây được viết bằng ngôn ngữ lập trình Python:
+
+Dòng    Python
+1       def F(A, n):
+2           j = 0
+3           for i in range(n):
+4               if A[i] % 2 != 0:
+5                   if A[j] % 2 == 0:
+6                       t = A[i]
+7                       A[i] = A[j]
+8                       A[j] = t
+9                   j = j + 1
+10          return A[0] + A[n - 1]
+
+Hãy xác định tính đúng hoặc sai của các ý kiến sau:
+
+a) Hàm F có hai tham số.
+
+b) Sau khi thực hiện hàm F, mảng A không tồn tại phần tử có giá trị chẵn nào có chỉ số lớn hơn chỉ số của phần tử có giá trị lẻ.
+
+c) Nếu nhận vào hai đối số, mảng A là [2, 7, 6, 1, 4, 3, 5] và n = 7, thì hàm F trả về giá trị 9.
+
+d) Với mảng A bất kì, giả sử mảng B được tạo ra bằng cách sao chép mảng A rồi hoán đổi vị trí của một số phần tử thì kết quả trả về của hai lần gọi hàm F(A, n) và F(B, n) là bằng nhau.

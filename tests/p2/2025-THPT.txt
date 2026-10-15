@@ -1,0 +1,38 @@
+Câu 1. Xem xét đoạn chương trình Python sau:
+
+Python
+S = 0
+for i in range(1, 4):
+    S += i * i
+print(S)
+
+Phương án nào dưới đây nêu đúng giá trị của S sau khi thực hiện đoạn chương trình trên?
+
+A. 30
+B. 29
+C. 14
+D. 13
+
+--------------------------------------------------
+
+Câu 2. Tìm hiểu hàm Python sau:
+
+Python
+def find(x, a, n):
+    found = False
+    i = 0
+    while (i < n) and not found:
+        if a[i] == x:
+            found = True
+        i = i + 1
+    return found
+
+Hãy xác định tính đúng hoặc sai của các nhận xét sau:
+
+a) Hàm thể hiện một thuật toán đệ quy.
+
+b) Các thao tác với mảng a trong hàm không phải là thao tác trên kiểu dữ liệu ngăn xếp.
+
+c) Hàm có độ phức tạp thuật toán là O(n²).
+
+d) Nếu mảng a = [2, 6, 3, 8] và x = 9 thì hàm trả về giá trị logic sai.
